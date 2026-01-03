@@ -5,7 +5,7 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false); 
+  const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
   const languages = [
@@ -14,7 +14,7 @@ const Navbar = () => {
     { code: 'DE', label: 'Deutsch', flag: 'https://flagcdn.com/w40/de.png' }
   ];
 
-  const [activeLang, setActiveLang] = useState(languages[1]); 
+  const [activeLang, setActiveLang] = useState(languages[1]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,7 +25,9 @@ const Navbar = () => {
   }, []);
 
   const isActive = (path) => {
-    return location.pathname === path ? "text-orange-500" : "text-gray-600 hover:text-blue-900";
+    return location.pathname === path 
+      ? "text-orange-500 font-extrabold" 
+      : "text-gray-300 hover:text-white font-medium";
   };
 
   const handleLangSelect = (lang) => {
@@ -38,33 +40,35 @@ const Navbar = () => {
       isScrolled ? 'top-4' : 'top-0'
     }`}>
       
-      <nav 
+      <nav
         className={`transition-all duration-500 ease-in-out flex items-center justify-between relative
         ${isScrolled 
-            // SAAT SCROLL (Floating Pill):
-            // Padding lebih kecil (px-12) karena container-nya sendiri sudah mengecil (w-[95%])
-            // Ini menjaga logo tetap terlihat proporsional di dalam kapsul.
-            ? 'bg-white/95 backdrop-blur-md shadow-2xl rounded-full border border-white/20 w-[95%] md:w-auto md:min-w-[850px] py-3 px-8 md:px-12' 
-            
-            // SAAT DI ATAS (Normal): 
-            // PERUBAHAN DISINI: Saya ubah jadi px-8 md:px-24 
-            // Agar logo GESER KE TENGAH (tidak mepet pojok layar).
-            : 'bg-white w-full py-5 border-b border-gray-100 h-20 px-8 md:px-24'
+          // --- MODE SCROLL (KAPSUL) ---
+          // Padding diperkecil (py-2) agar kapsul tidak gembung, tapi logo tetap menonjol
+          ? 'bg-slate-900/95 backdrop-blur-md shadow-2xl rounded-full border border-white/20 w-[95%] md:w-auto md:min-w-[900px] py-2 px-8 md:px-12' 
+          
+          // --- MODE ATAS (NORMAL) ---
+          // Padding standar (py-4) agar tidak terlalu tinggi, tapi logo dimaksimalkan
+          : 'bg-slate-900 w-full py-4 px-6 md:px-16 border-b border-white/10'
         }`}
       >
         
-        {/* --- 1. LOGO SECTION --- */}
-        <Link to="/" className="flex items-center flex-shrink-0 gap-2">
-          {/* Ukuran logo tetap konsisten */}
+        {/* --- 1. LOGO SECTION (Hanya Gambar Besar) --- */}
+        <Link to="/" className="flex items-center flex-shrink-0">
           <img 
             src="/images/logo.svg" 
             alt="Colink Sigma Logo" 
-            className="h-10 w-10 md:h-14 md:w-14 object-contain transition-all duration-300" 
+            // UKURAN LOGO DIPERBESAR DI SINI
+            // h-14 (56px) di Mobile, h-20 (80px) di Desktop
+            // -mt-1 (margin top negatif) digunakan sedikit agar logo besar tidak "mendorong" navbar jadi terlalu tinggi
+            className={`object-contain transition-transform duration-300 hover:scale-110 
+              ${isScrolled ? 'h-12 w-12 md:h-16 md:w-16' : 'h-14 w-14 md:h-20 md:w-20'}
+            `} 
           />
         </Link>
-        
+
         {/* --- 2. DESKTOP MENU --- */}
-        <div className="hidden md:flex items-center gap-6 lg:gap-8 font-medium mx-4 lg:mx-8">
+        <div className="hidden md:flex items-center gap-8">
           {[
             { path: '/', label: 'Beranda' },
             { path: '/about', label: 'Tentang Kami' },
@@ -72,38 +76,38 @@ const Navbar = () => {
             { path: '/gallery', label: 'Galeri' }, 
             { path: '/contact', label: 'Kontak' },
           ].map((link) => (
-             <Link 
-               key={link.path}
-               to={link.path} 
-               className={`${isActive(link.path)} transition font-bold text-sm uppercase tracking-wide relative group`}
-             >
-               {link.label}
-               <span className={`absolute -bottom-1 left-0 h-0.5 bg-orange-500 transition-all duration-300 ${
-                 location.pathname === link.path ? 'w-full' : 'w-0 group-hover:w-full'
-               }`}></span>
-             </Link>
+            <Link 
+              key={link.path}
+              to={link.path} 
+              className={`${isActive(link.path)} text-sm uppercase tracking-wider transition-all relative group py-2`}
+            >
+              {link.label}
+              <span className={`absolute bottom-0 left-0 h-0.5 bg-orange-500 transition-all duration-300 ${
+                location.pathname === link.path ? 'w-full' : 'w-0 group-hover:w-full'
+              }`}></span>
+            </Link>
           ))}
         </div>
 
-        {/* --- 3. LANGUAGE SWITCHER (Desktop) --- */}
-        <div className="hidden md:flex items-center gap-3 pl-4 border-l border-gray-200">
-           <div className="relative">
+        {/* --- 3. LANGUAGE SWITCHER --- */}
+        <div className="hidden md:flex items-center pl-6 border-l border-white/20 ml-4">
+          <div className="relative">
             <button 
               onClick={() => setIsLangOpen(!isLangOpen)}
-              className="flex items-center gap-2 px-2 py-1 rounded-full hover:bg-gray-100 transition"
+              className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 hover:bg-white/20 text-white transition border border-white/10"
             >
-              <img src={activeLang.flag} alt={activeLang.code} className="w-5 h-3.5 object-cover rounded shadow-sm" />
-              <span className="text-xs font-bold text-gray-700">{activeLang.code}</span>
+              <img src={activeLang.flag} alt={activeLang.code} className="w-5 h-3.5 object-cover rounded-[2px]" />
+              <span className="text-xs font-bold tracking-wide">{activeLang.code}</span>
               <ChevronDown className={`w-3 h-3 transition-transform ${isLangOpen ? 'rotate-180' : ''}`} />
             </button>
 
             {isLangOpen && (
-              <div className="absolute right-0 mt-4 w-40 bg-white border border-gray-100 rounded-xl shadow-xl overflow-hidden py-1 z-50 animate-in fade-in slide-in-from-top-2">
+              <div className="absolute right-0 mt-3 w-40 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl overflow-hidden py-1 z-50 animate-in fade-in slide-in-from-top-2">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
                     onClick={() => handleLangSelect(lang)}
-                    className="flex items-center gap-3 w-full px-4 py-2 text-sm text-left hover:bg-blue-50 hover:text-blue-900 transition-colors"
+                    className="flex items-center gap-3 w-full px-4 py-3 text-sm text-left text-gray-300 hover:bg-slate-700 hover:text-white transition-colors border-b border-slate-700/50 last:border-0"
                   >
                     <img src={lang.flag} alt={lang.label} className="w-5 h-3.5 object-cover rounded shadow-sm" />
                     <span className="font-medium">{lang.label}</span>
@@ -117,37 +121,65 @@ const Navbar = () => {
         {/* --- 4. MOBILE MENU BUTTON --- */}
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)} 
-          className="md:hidden text-gray-700 ml-auto focus:outline-none"
+          className="md:hidden text-white hover:text-orange-500 transition focus:outline-none bg-white/10 p-2 rounded-lg"
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
       </nav>
 
-      {/* --- MOBILE MENU DROPDOWN --- */}
+      {/* --- MOBILE MENU DROPDOWN (Overlay) --- */}
       {isMenuOpen && (
-        <div className="absolute top-full left-0 right-0 mt-2 mx-4 bg-white rounded-2xl shadow-2xl p-6 flex flex-col gap-4 border border-gray-100 md:hidden animate-in fade-in slide-in-from-top-5 duration-300">
-          <Link to="/" className="block text-gray-700 font-bold py-2 border-b border-gray-50" onClick={() => setIsMenuOpen(false)}>Beranda</Link>
-          <Link to="/about" className="block text-gray-700 font-bold py-2 border-b border-gray-50" onClick={() => setIsMenuOpen(false)}>Tentang Kami</Link>
-          <Link to="/services" className="block text-gray-700 font-bold py-2 border-b border-gray-50" onClick={() => setIsMenuOpen(false)}>Layanan</Link>
-          <Link to="/gallery" className="block text-gray-700 font-bold py-2 border-b border-gray-50" onClick={() => setIsMenuOpen(false)}>Galeri</Link>
-          <Link to="/contact" className="block text-gray-700 font-bold py-2 border-b border-gray-50" onClick={() => setIsMenuOpen(false)}>Kontak</Link>
-          
-          <div className="pt-2">
-            <p className="text-xs text-gray-400 uppercase tracking-widest mb-3 font-semibold">Select Language</p>
-            <div className="flex gap-2">
+        <div className="fixed inset-0 z-40 bg-slate-900/98 backdrop-blur-xl md:hidden flex flex-col justify-center items-center animate-in fade-in duration-200">
+          <button 
+            onClick={() => setIsMenuOpen(false)}
+            className="absolute top-8 right-8 text-white/50 hover:text-white bg-white/10 p-2 rounded-full"
+          >
+            <X size={32} />
+          </button>
+
+          <div className="flex flex-col gap-8 text-center w-full px-8">
+            {/* Logo di Mobile Menu juga besar */}
+            <img 
+              src="/images/logo.svg" 
+              alt="Colink Logo" 
+              className="h-24 w-24 mx-auto mb-4 object-contain"
+            />
+            
+            {[
+              { path: '/', label: 'Beranda' },
+              { path: '/about', label: 'Tentang Kami' },
+              { path: '/services', label: 'Layanan' },
+              { path: '/gallery', label: 'Galeri' },
+              { path: '/contact', label: 'Kontak' },
+            ].map((link) => (
+              <Link 
+                key={link.path}
+                to={link.path} 
+                className={`text-2xl font-bold tracking-wide ${
+                  location.pathname === link.path ? 'text-orange-500' : 'text-white'
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
+
+            <div className="w-20 h-1 bg-white/10 mx-auto my-4 rounded-full"></div>
+
+            <div className="flex justify-center gap-4">
               {languages.map((lang) => (
                 <button
                   key={lang.code}
                   onClick={() => { handleLangSelect(lang); setIsMenuOpen(false); }}
-                  className={`flex-1 flex flex-col items-center justify-center gap-1 py-2 rounded-lg border text-xs font-medium transition-all ${
+                  className={`flex flex-col items-center gap-2 p-3 rounded-xl border min-w-[80px] ${
                     activeLang.code === lang.code 
-                      ? 'bg-blue-900 text-white border-blue-900 shadow-md' 
-                      : 'bg-white text-gray-600 border-gray-200 hover:bg-gray-50'
+                      ? 'bg-orange-500 border-orange-500 text-white' 
+                      : 'bg-transparent border-white/20 text-gray-400'
                   }`}
                 >
-                  <img src={lang.flag} alt={lang.code} className="w-6 h-4 object-cover rounded shadow-sm" />
-                  <span>{lang.code}</span>
+                  <img src={lang.flag} alt={lang.code} className="w-8 h-5 object-cover rounded shadow-sm" />
+                  <span className="text-xs font-bold mt-1">{lang.code}</span>
                 </button>
               ))}
             </div>

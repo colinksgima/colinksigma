@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, MapPin, ExternalLink, Loader2 } from 'lucide-react'; // Tambah Loader2
+import { Send, MapPin, ExternalLink, Loader2 } from 'lucide-react';
+import emailjs from '@emailjs/browser'; // Pastikan library ini sudah diinstall
 
 // --- LEAFLET IMPORTS ---
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
@@ -35,37 +36,41 @@ const ContactForm = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setStatus('loading');
 
-    try {
-      // Ganti URL ini jika server sudah di-deploy online
-      const response = await fetch('http://localhost:5000/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+    // --- DATA KREDENSIAL EMAILJS ANDA ---
+    const SERVICE_ID = 'service_lacolink';
+    const TEMPLATE_ID = 'template_2c00kob';
+    const PUBLIC_KEY = 'OoysGIZ90LAEns-tP';
 
-      const result = await response.json();
+    // Menyiapkan data agar sesuai dengan variabel {{...}} di Template EmailJS
+    const templateParams = {
+      firstName: formData.firstName,
+      lastName: formData.lastName,
+      email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    };
 
-      if (result.success) {
+    // Proses Pengiriman Email
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
         setStatus('success');
+        // Reset form setelah berhasil
         setFormData({ firstName: '', lastName: '', email: '', subject: 'General Inquiry', message: '' });
-        alert("Pesan berhasil dikirim! Kami akan segera menghubungi Anda.");
-      } else {
+        alert("Pesan berhasil dikirim! Terima kasih telah menghubungi kami.");
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
         setStatus('error');
-        alert("Gagal mengirim pesan. Silakan coba lagi.");
-      }
-    } catch (error) {
-      console.error(error);
-      setStatus('error');
-      alert("Terjadi kesalahan koneksi server.");
-    } finally {
-      setStatus('idle');
-    }
+        alert("Gagal mengirim pesan. Mohon periksa koneksi internet Anda atau coba lagi nanti.");
+      })
+      .finally(() => {
+        setStatus('idle');
+      });
   };
 
   return (
@@ -154,7 +159,7 @@ const ContactForm = () => {
               <button 
                 type="submit" 
                 disabled={status === 'loading'}
-                className="w-full bg-blue-900 text-white font-bold py-4 rounded-lg hover:bg-blue-800 transition shadow-lg flex items-center justify-center gap-2 disabled:bg-blue-400"
+                className="w-full bg-blue-900 text-white font-bold py-4 rounded-lg hover:bg-blue-800 transition shadow-lg flex items-center justify-center gap-2 disabled:bg-blue-400 disabled:cursor-not-allowed"
               >
                 {status === 'loading' ? (
                   <>Sending... <Loader2 className="animate-spin" size={18} /></>
