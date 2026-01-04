@@ -38,7 +38,7 @@ const HomeCTA = () => {
           {/* GRADASI FOTO (KANAN) */}
           <div className="absolute top-0 right-0 w-full md:w-3/5 h-full z-0">
              <img 
-               src="/images/sausage.jpg" 
+               src="images/sausage.jpg" 
                alt="Production Background" 
                className="w-full h-full object-cover opacity-60 mix-blend-luminosity" 
              />

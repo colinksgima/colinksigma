@@ -20,7 +20,7 @@ const AboutStory = () => {
             className="md:w-1/2 relative"
           >
              <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
-                <img src="/images/sausage.jpg" alt="Our History" className="w-full h-auto object-cover" />
+                <img src="images/sausage.jpg" alt="Our History" className="w-full h-auto object-cover" />
              </div>
              <div className="absolute -bottom-6 -right-6 bg-blue-900 text-white p-6 rounded-xl shadow-xl z-20 hidden md:block">
                 <p className="text-4xl font-bold">2025</p>

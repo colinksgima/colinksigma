@@ -39,7 +39,7 @@ const HomeWhyChooseUs = () => {
           >
              <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-gray-100 h-[400px] md:h-[500px]">
                 <img 
-                  src="/images/installation-830-226/installation-1.jpg" 
+                  src="images/installation-830-226/installation-1.jpg" 
                   alt="Industrial Machine Installation" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />

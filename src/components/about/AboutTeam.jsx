@@ -12,7 +12,7 @@ const AboutTeam = () => {
       name: "Lars Arnstaedt",
       role: t('about.team.lars_role'),
       desc: t('about.team.lars_desc'),
-      img: "/images/lars.png",
+      img: "images/lars.png",
       email: "lacolink2025@gmail.com",
       phone: "+62 853-1101-2421"
     },
@@ -20,7 +20,7 @@ const AboutTeam = () => {
       name: "NI NYOMAN SUGI ARIANTINI",
       role: t('about.team.sugi_role'),
       desc: t('about.team.sugi_desc'),
-      img: "/images/sugi.png",
+      img: "images/sugi.png",
       email: "sugicolink@gmail.com",
       phone: "+62 853-1382-7131"
     },
@@ -28,7 +28,7 @@ const AboutTeam = () => {
       name: "NI NYOMAN SURYANINGSIH",
       role: t('about.team.surya_role'),
       desc: t('about.team.surya_desc'),
-      img: "/images/surya.png",
+      img: "images/surya.png",
       email: "suryacolink2025@gmail.com",
       phone: "+62 812-3761-3484"
     }

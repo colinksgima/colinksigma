@@ -76,7 +76,7 @@ const Services = () => {
             </div>
             <div className="md:w-1/2 w-full">
                <img 
-                 src="/images/casing.jpg" 
+                 src="images/casing.jpg" 
                  alt="Casing Product" 
                  className="w-full h-80 object-cover shadow-2xl border border-gray-700"
                />

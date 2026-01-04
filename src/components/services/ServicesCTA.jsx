@@ -40,7 +40,7 @@ const ServicesCTA = () => {
           {/* --- BAGIAN KANAN: FOTO BACKGROUND --- */}
           <div className="absolute top-0 right-0 w-full md:w-3/5 h-full z-0">
              <img 
-               src="/images/casing.jpg" 
+               src="images/casing.jpg" 
                alt="Services Background" 
                className="w-full h-full object-cover opacity-50 mix-blend-luminosity" 
              />

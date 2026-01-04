@@ -7,11 +7,11 @@ import { ArrowRight, MoveRight } from 'lucide-react';
 
 // 1. Gambar untuk Header (5 Foto Utama - Arc Display)
 const headerImages = [
-  "/images/casing.jpg",   // Kiri Luar
-  "/images/sausage.jpg",  // Kiri Dalam
-  "/images/sausage.jpg",  // TENGAH (UTAMA) - Ganti dengan foto Installation 830+226 yang paling bagus
-  "/images/casing.jpg",   // Kanan Dalam
-  "/images/sausage.jpg",  // Kanan Luar
+  "images/casing.jpg",   // Kiri Luar
+  "images/sausage.jpg",  // Kiri Dalam
+  "images/sausage.jpg",  // TENGAH (UTAMA) - Ganti dengan foto Installation 830+226 yang paling bagus
+  "images/casing.jpg",   // Kanan Dalam
+  "images/sausage.jpg",  // Kanan Luar
 ];
 
 // 2. Kategori Proyek (Bagian Gelap)
@@ -19,19 +19,19 @@ const projectCategories = [
   {
     title: "Mesin & Instalasi",
     subtitle: "Mauting & Installation 830 + 226",
-    image: "/images/sausage.jpg", // Ganti dengan foto folder Mauting/Installation
+    image: "images/sausage.jpg", // Ganti dengan foto folder Mauting/Installation
     desc: "Pemasangan presisi tinggi untuk sistem pengolahan daging modern."
   },
   {
     title: "Casing Trials",
     subtitle: "Uji Coba Produksi",
-    image: "/images/casing.jpg", // Ganti dengan foto folder Casing trial
+    image: "images/casing.jpg", // Ganti dengan foto folder Casing trial
     desc: "Pengujian kualitas casing kolagen langsung pada lini produksi."
   },
   {
     title: "Maintenance",
     subtitle: "612 Overhaul",
-    image: "/images/sausage.jpg", // Ganti dengan foto folder 612 overhaul
+    image: "images/sausage.jpg", // Ganti dengan foto folder 612 overhaul
     desc: "Peremajaan total mesin untuk mengembalikan performa maksimal."
   }
 ];
@@ -201,7 +201,7 @@ const Gallery = () => {
 
           <div className="md:w-1/2 relative">
              <div className="w-full h-[500px] bg-white p-4 rounded-t-full rounded-b-lg shadow-xl overflow-hidden relative">
-                <img src="/images/Lars.png" alt="Visionary" className="w-full h-full object-cover rounded-t-full rounded-b-md filter grayscale hover:grayscale-0 transition duration-500" />
+                <img src="images/Lars.png" alt="Visionary" className="w-full h-full object-cover rounded-t-full rounded-b-md filter grayscale hover:grayscale-0 transition duration-500" />
                 
                 {/* Floating Card */}
                 <div className="absolute bottom-10 -left-6 bg-white p-6 rounded-lg shadow-2xl max-w-xs hidden md:block border-l-4 border-blue-900">

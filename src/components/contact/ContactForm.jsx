@@ -5,8 +5,8 @@ import emailjs from '@emailjs/browser';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import icon from 'leaflet/dist/images/marker-icon.png';
-import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+import icon from 'leaflet/distimages/marker-icon.png';
+import iconShadow from 'leaflet/distimages/marker-shadow.png';
 import { useTranslation, Trans } from 'react-i18next'; // Import Hook
 
 let DefaultIcon = L.icon({

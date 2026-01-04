@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 import { useTranslation, Trans } from 'react-i18next';
 
 const headerImages = [
-  "/images/casing.jpg",   // Kiri Luar
-  "/images/sausage1.jpg",  // Kiri Dalam
-  "/images/sausage2.jpg",  // TENGAH (UTAMA)
-  "/images/sausage3.jpg",   // Kanan Dalam
-  "/images/casing.jpg",  // Kanan Luar
+  "images/casing.jpg",   // Kiri Luar
+  "images/sausage1.jpg",  // Kiri Dalam
+  "images/sausage2.jpg",  // TENGAH (UTAMA)
+  "images/sausage3.jpg",   // Kanan Dalam
+  "images/casing.jpg",  // Kanan Luar
 ];
 
 const GalleryHero = () => {

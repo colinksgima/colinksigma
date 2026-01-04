@@ -15,7 +15,7 @@ const ServicesDetail = () => {
       desc: t('services_page.detail.item1.desc'),
       icon: <Wrench size={32} />,
       color: "bg-blue-100 text-blue-900",
-      image: "/images/installation-830-226/installation-1.jpg", 
+      image: "images/installation-830-226/installation-1.jpg", 
       points: t('services_page.detail.item1.points', { returnObjects: true })
     },
     {
@@ -25,7 +25,7 @@ const ServicesDetail = () => {
       desc: t('services_page.detail.item2.desc'),
       icon: <ChefHat size={32} />,
       color: "bg-orange-100 text-orange-600",
-      image: "/images/seasoning.jpeg", 
+      image: "images/seasoning.jpeg", 
       points: t('services_page.detail.item2.points', { returnObjects: true })
     },
     {
@@ -35,7 +35,7 @@ const ServicesDetail = () => {
       desc: t('services_page.detail.item3.desc'),
       icon: <PackageCheck size={32} />,
       color: "bg-green-100 text-green-700",
-      image: "/images/casing3.jpg", 
+      image: "images/casing3.jpg", 
       points: t('services_page.detail.item3.points', { returnObjects: true })
     }
   ];

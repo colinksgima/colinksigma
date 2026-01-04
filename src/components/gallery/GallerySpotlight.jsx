@@ -43,7 +43,7 @@ const GallerySpotlight = () => {
                className="md:w-1/2 w-full"
              >
                 <div className="relative rounded-lg overflow-hidden border border-white/20 shadow-2xl group">
-                   <img src="/images/mauting-installation/mauting-installation-2.jpg" alt="Spotlight Project" className="w-full h-80 object-cover filter grayscale group-hover:grayscale-0 transition duration-700" />
+                   <img src="images/mauting-installation/mauting-installation-2.jpg" alt="Spotlight Project" className="w-full h-80 object-cover filter grayscale group-hover:grayscale-0 transition duration-700" />
                    <div className="absolute inset-0 bg-blue-900/20 mix-blend-overlay"></div>
                 </div>
              </motion.div>

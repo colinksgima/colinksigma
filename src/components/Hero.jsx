@@ -6,10 +6,10 @@ import { useTranslation, Trans } from 'react-i18next'; // Import Hook
 
 // --- DATA GAMBAR BACKGROUND ---
 const galleryImages = [
-  "/images/sausage.jpg", "/images/casing.jpg", "/images/Lars.png",
-  "/images/sausage.jpg", "/images/Sugi.png", "/images/casing.jpg",
-  "/images/Surya.png", "/images/logo.png", "/images/sausage.jpg",
-  "/images/casing.jpg", "/images/Lars.png", "/images/Sugi.png",
+  "images/sausage.jpg", "images/casing.jpg", "images/Lars.png",
+  "images/sausage.jpg", "images/Sugi.png", "images/casing.jpg",
+  "images/Surya.png", "images/logo.png", "images/sausage.jpg",
+  "images/casing.jpg", "images/Lars.png", "images/Sugi.png",
 ];
 
 const chunkArray = (array, numChunks) => {
@@ -113,7 +113,7 @@ const Hero = () => {
           {/* --- KOLOM KANAN --- */}
           <div className="md:w-2/5 w-full hidden md:block">
              <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform rotate-3 hover:rotate-0 transition duration-500">
-                <img src="/images/sausage.jpg" alt="Quality Production" className="w-full h-auto object-cover"/>
+                <img src="images/sausage.jpg" alt="Quality Production" className="w-full h-auto object-cover"/>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white font-bold text-lg">{t('home.hero.trusted_sol')}</p>
                   <p className="text-gray-300 text-sm">{t('home.hero.trusted_sub')}</p>

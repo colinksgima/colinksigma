@@ -15,18 +15,18 @@ const GalleryGrid = () => {
       title: t('gallery_page.projects.p1_title'),
       category: t('gallery_page.projects.p1_cat'),
       desc: t('gallery_page.projects.p1_desc'),
-      coverImage: "/images/installation-830-226/installation-1.jpg", 
+      coverImage: "images/installation-830-226/installation-1.jpg", 
       icon: <Settings className="w-6 h-6" />,
       colSpan: "md:col-span-2",
       galleryImages: [
-        "/images/installation-830-226/installation-1.jpg", 
-        "/images/installation-830-226/installation-2.jpg",
-        "/images/installation-830-226/installation-3.jpg",
-        "/images/installation-830-226/installation-4.jpg",
-        "/images/installation-830-226/installation-5.jpg",
-        "/images/installation-830-226/installation-6.jpg",
-        "/images/installation-830-226/installation-7.jpg",
-        "/images/installation-830-226/installation-8.jpg"
+        "images/installation-830-226/installation-1.jpg", 
+        "images/installation-830-226/installation-2.jpg",
+        "images/installation-830-226/installation-3.jpg",
+        "images/installation-830-226/installation-4.jpg",
+        "images/installation-830-226/installation-5.jpg",
+        "images/installation-830-226/installation-6.jpg",
+        "images/installation-830-226/installation-7.jpg",
+        "images/installation-830-226/installation-8.jpg"
       ]
     },
     {
@@ -34,18 +34,18 @@ const GalleryGrid = () => {
       title: t('gallery_page.projects.p2_title'),
       category: t('gallery_page.projects.p2_cat'),
       desc: t('gallery_page.projects.p2_desc'),
-      coverImage: "/images/612-overhaul/VF-612-1.jpg", 
+      coverImage: "images/612-overhaul/VF-612-1.jpg", 
       icon: <Wrench className="w-6 h-6" />,
       colSpan: "md:col-span-1",
       galleryImages: [
-        "/images/612-overhaul/VF-612-1.jpg",
-        "/images/612-overhaul/VF-612-2.jpg",
-        "/images/612-overhaul/VF-612-3.jpg",
-        "/images/612-overhaul/VF-612-4.jpg",
-        "/images/612-overhaul/VF-612-5.jpg",
-        "/images/612-overhaul/VF-612-6.jpg",
-        "/images/612-overhaul/VF-612-7.jpg",
-        "/images/612-overhaul/VF-612-8.jpg"
+        "images/612-overhaul/VF-612-1.jpg",
+        "images/612-overhaul/VF-612-2.jpg",
+        "images/612-overhaul/VF-612-3.jpg",
+        "images/612-overhaul/VF-612-4.jpg",
+        "images/612-overhaul/VF-612-5.jpg",
+        "images/612-overhaul/VF-612-6.jpg",
+        "images/612-overhaul/VF-612-7.jpg",
+        "images/612-overhaul/VF-612-8.jpg"
       ]
     },
     {
@@ -53,15 +53,15 @@ const GalleryGrid = () => {
       title: t('gallery_page.projects.p3_title'),
       category: t('gallery_page.projects.p3_cat'),
       desc: t('gallery_page.projects.p3_desc'),
-      coverImage: "/images/casing-trial/cassing-trial-1.jpg",
+      coverImage: "images/casing-trial/cassing-trial-1.jpg",
       icon: <FileCheck className="w-6 h-6" />,
       colSpan: "md:col-span-1",
       galleryImages: [
-        "/images/casing-trial/cassing-trial-1.jpg",
-        "/images/casing-trial/cassing-trial-2.jpg",
-        "/images/casing-trial/cassing-trial-3.jpg",
-        "/images/casing-trial/cassing-trial-4.jpg",
-        "/images/casing-trial/cassing-trial-5.jpg"
+        "images/casing-trial/cassing-trial-1.jpg",
+        "images/casing-trial/cassing-trial-2.jpg",
+        "images/casing-trial/cassing-trial-3.jpg",
+        "images/casing-trial/cassing-trial-4.jpg",
+        "images/casing-trial/cassing-trial-5.jpg"
       ]
     },
     {
@@ -69,17 +69,17 @@ const GalleryGrid = () => {
       title: t('gallery_page.projects.p4_title'),
       category: t('gallery_page.projects.p4_cat'),
       desc: t('gallery_page.projects.p4_desc'),
-      coverImage: "/images/mauting-installation/mauting-installation-1.jpg",
+      coverImage: "images/mauting-installation/mauting-installation-1.jpg",
       icon: <Factory className="w-6 h-6" />,
       colSpan: "md:col-span-2",
       galleryImages: [
-        "/images/mauting-installation/mauting-installation-1.jpg",
-        "/images/mauting-installation/mauting-installation-2.jpg",
-        "/images/mauting-installation/mauting-installation-3.jpg",
-        "/images/mauting-installation/mauting-installation-4.jpg",
-        "/images/mauting-installation/mauting-installation-5.jpg",
-        "/images/mauting-installation/mauting-installation-6.jpg",
-        "/images/mauting-installation/mauting-installation-7.jpg"
+        "images/mauting-installation/mauting-installation-1.jpg",
+        "images/mauting-installation/mauting-installation-2.jpg",
+        "images/mauting-installation/mauting-installation-3.jpg",
+        "images/mauting-installation/mauting-installation-4.jpg",
+        "images/mauting-installation/mauting-installation-5.jpg",
+        "images/mauting-installation/mauting-installation-6.jpg",
+        "images/mauting-installation/mauting-installation-7.jpg"
       ]
     },
   ];
