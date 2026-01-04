@@ -1,15 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation, Trans } from 'react-i18next';
 
 const headerImages = [
   "/images/casing.jpg",   // Kiri Luar
-  "/images/sausage.jpg",  // Kiri Dalam
-  "/images/sausage.jpg",  // TENGAH (UTAMA)
-  "/images/casing.jpg",   // Kanan Dalam
-  "/images/sausage.jpg",  // Kanan Luar
+  "/images/sausage1.jpg",  // Kiri Dalam
+  "/images/sausage2.jpg",  // TENGAH (UTAMA)
+  "/images/sausage3.jpg",   // Kanan Dalam
+  "/images/casing.jpg",  // Kanan Luar
 ];
 
 const GalleryHero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="pt-24 pb-20 bg-white overflow-hidden">
       <div className="container mx-auto px-6 text-center">
@@ -22,10 +25,12 @@ const GalleryHero = () => {
           className="mb-12"
         >
           <span className="text-gray-400 font-bold tracking-widest text-xs uppercase mb-2 block">
-            Portfolio Showcase
+            {t('gallery_page.hero.subtitle')}
           </span>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight">
-            PRECISION IN <br/> <span className="text-blue-900">EVERY INSTALLATION</span>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight whitespace-pre-line">
+            <Trans i18nKey="gallery_page.hero.title">
+               PRECISION IN <br/> <span className="text-blue-900">EVERY INSTALLATION</span>
+            </Trans>
           </h1>
         </motion.div>
 
@@ -56,7 +61,7 @@ const GalleryHero = () => {
            >
              <img src={headerImages[2]} alt="Main Gallery" className="w-full h-full object-cover hover:scale-110 transition-transform duration-700" />
              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded text-xs font-bold shadow-sm">
-                Featured Project
+                {t('gallery_page.hero.featured')}
              </div>
            </motion.div>
 

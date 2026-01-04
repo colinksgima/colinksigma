@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Linkedin } from 'lucide-react';
+import { useTranslation } from 'react-i18next'; // 1. Import Hook
 
 const Footer = () => {
+  const { t } = useTranslation(); // 2. Inisialisasi Hook
+  
   // Tahun otomatis
   const currentYear = new Date().getFullYear();
 
@@ -29,7 +32,7 @@ const Footer = () => {
                <img src="/images/logo.svg" alt="Colink Sigma" className="h-14 brightness-0 invert" /> 
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 pr-6">
-              Mitra strategis industri pengolahan daging. Membawa presisi teknik Jerman dengan layanan lokal yang responsif dan terpercaya.
+              {t('footer.desc')}
             </p>
             <div className="flex gap-4">
               <a 
@@ -45,31 +48,38 @@ const Footer = () => {
 
           {/* 2. Quick Links */}
           <div className="lg:col-span-2">
-            <h4 className="text-md font-bold mb-6 text-white uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">Quick Links</h4>
+            <h4 className="text-md font-bold mb-6 text-white uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">
+              {t('footer.links')}
+            </h4>
             <ul className="space-y-3 text-gray-400 text-sm font-medium">
-              <li><Link to="/" className="hover:text-orange-400 transition block py-1">Beranda</Link></li>
-              <li><Link to="/about" className="hover:text-orange-400 transition block py-1">Tentang Kami</Link></li>
-              <li><Link to="/services" className="hover:text-orange-400 transition block py-1">Layanan</Link></li>
-              <li><Link to="/gallery" className="hover:text-orange-400 transition block py-1">Galeri</Link></li>
-              <li><Link to="/contact" className="hover:text-orange-400 transition block py-1">Kontak</Link></li>
+              {/* Kita menggunakan key dari navbar agar konsisten */}
+              <li><Link to="/" className="hover:text-orange-400 transition block py-1">{t('navbar.home')}</Link></li>
+              <li><Link to="/about" className="hover:text-orange-400 transition block py-1">{t('navbar.about')}</Link></li>
+              <li><Link to="/services" className="hover:text-orange-400 transition block py-1">{t('navbar.services')}</Link></li>
+              <li><Link to="/gallery" className="hover:text-orange-400 transition block py-1">{t('navbar.gallery')}</Link></li>
+              <li><Link to="/contact" className="hover:text-orange-400 transition block py-1">{t('navbar.contact')}</Link></li>
             </ul>
           </div>
 
           {/* 3. Expertise */}
           <div className="lg:col-span-3">
-            <h4 className="text-md font-bold mb-6 text-white uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">Our Expertise</h4>
+            <h4 className="text-md font-bold mb-6 text-white uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">
+              {t('footer.expertise')}
+            </h4>
             <ul className="space-y-3 text-gray-400 text-sm">
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> Instalasi Mesin (Handtmann)</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> Overhaul & Perbaikan</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> Konsultasi Resep Sosis</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> Supply Casing Kolagen</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> Training Operator</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> {t('footer.services_list.install')}</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> {t('footer.services_list.overhaul')}</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> {t('footer.services_list.consult')}</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> {t('footer.services_list.supply')}</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span> {t('footer.services_list.training')}</li>
             </ul>
           </div>
 
           {/* 4. Head Office */}
           <div className="lg:col-span-3">
-            <h4 className="text-md font-bold mb-6 text-white uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">Head Office</h4>
+            <h4 className="text-md font-bold mb-6 text-white uppercase tracking-wider border-b border-gray-700 pb-2 inline-block">
+              {t('footer.office')}
+            </h4>
             <ul className="space-y-4 text-gray-400 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="text-orange-500 shrink-0 mt-1" size={18} />
@@ -108,12 +118,12 @@ const Footer = () => {
             >
               {currentYear}
             </a> 
-            PT. Colink Sigma Indonesia. All rights reserved.
+            PT. Colink Sigma Indonesia. {t('footer.rights')}
           </p>
           
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link to="/privacy-policy" className="hover:text-white transition">Privacy Policy</Link>
-            <Link to="/terms-of-service" className="hover:text-white transition">Terms of Service</Link>
+            <Link to="/privacy-policy" className="hover:text-white transition">{t('footer.privacy')}</Link>
+            <Link to="/terms-of-service" className="hover:text-white transition">{t('footer.terms')}</Link>
           </div>
         </div>
       </div>

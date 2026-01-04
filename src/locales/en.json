@@ -1,0 +1,264 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "footer": {
+    "desc": "Strategic partner for the meat processing industry. Bringing German engineering precision with responsive and trusted local service.",
+    "expertise": "Our Expertise",
+    "links": "Quick Links",
+    "office": "Head Office",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "services_list": {
+      "install": "Machine Installation (Handtmann)",
+      "overhaul": "Overhaul & Repair",
+      "consult": "Sausage Recipe Consultation",
+      "supply": "Collagen Casing Supply",
+      "training": "Operator Training"
+    }
+  },
+  "stats": {
+    "exp": "Years Experience",
+    "exp_desc": "German Educated Butcher",
+    "tech": "Years Technical",
+    "tech_desc": "Field Service Expert",
+    "cert": "Certified",
+    "cert_desc": "Master Butcher Standard",
+    "brand": "Global Brands",
+    "brand_desc": "Trusted Machine Support"
+  },
+  "home": {
+    "hero": {
+      "since": "Since 2025",
+      "title": "European Expertise, <br/> Indonesian Heart.",
+      "desc": "PT. Colink Sigma Indonesia is here as a strategic partner for the meat processing industry. We don't just sell products, we provide comprehensive solutions for your production efficiency and quality.",
+      "tech_service": "Technical Services",
+      "tech_desc": "Machine Installation, Maintenance & Training.",
+      "master_consult": "Master Consulting",
+      "master_desc": "Recipes & Efficiency from German Experts.",
+      "premium_casing": "Premium Casings",
+      "premium_desc": "High Quality Collagen Casing Supply.",
+      "btn_about": "About Us",
+      "btn_services": "See Full Services",
+      "trusted_sol": "Trusted Solution",
+      "trusted_sub": "For Modern Food Industry"
+    },
+    "brands": {
+      "trusted": "Trusted Expertise With"
+    },
+    "why_choose": {
+      "label": "Why Choose Us",
+      "title": "Bringing European Precision to <br/> Indonesian Industry",
+      "desc": "We understand that in the meat processing industry, precision is everything. With decades of experience in Germany and Indonesia, we bring the highest standards to your factory.",
+      "german_cert": "German Certified",
+      "german_desc": "Original German master butcher quality standards since 2002.",
+      "reliable": "Reliable Support",
+      "reliable_desc": "Responsive technical support to minimize downtime.",
+      "end_to_end": "End-to-End Solution",
+      "end_to_end_desc": "Complete solutions from machines, installation, to product recipes."
+    },
+    "services": {
+      "title": "Our Core Competencies",
+      "tech_title": "Technical Service",
+      "tech_desc": "High precision machine installation & repair.",
+      "butcher_title": "Butcher Consulting",
+      "butcher_desc": "Recipe optimization & production efficiency.",
+      "supply_title": "Premium Supplies",
+      "supply_desc": "Quality collagen casings & ingredients.",
+      "learn_more": "Learn More"
+    },
+    "cta": {
+      "title": "Ready to Upgrade <br/> Your Production?",
+      "desc": "Consult your machine and casing needs with our experts for maximum results.",
+      "btn": "Contact Us"
+    }
+  },
+  "about": {
+    "hero": {
+      "subtitle": "Who We Are",
+      "title": "German Expertise. <br/> Indonesian Solutions.",
+      "desc": "PT. Colink Sigma Indonesia stands as a bridge between European standard meat processing technology and local industry needs in Indonesia."
+    },
+    "story": {
+      "established": "Established",
+      "title": "A New Standard in <br/> Food Technology",
+      "desc": "Although newly established in 2025, our foundation of expertise has been built over decades. Led by German-educated experts, we bring strict \"German Butcher\" standards to every service we provide.",
+      "cert_title": "Certified Master Butcher",
+      "cert_desc": "Highest qualification in meat processing (Meisterbrief) since 2002.",
+      "edu_title": "German Educated",
+      "edu_desc": "Formal technician & butcher education in Germany since 1998."
+    },
+    "team": {
+      "title": "Meet The Leadership",
+      "lars_role": "Technical Director",
+      "lars_desc": "German Certified Master Butcher & Technical Expert since 1998.",
+      "sugi_role": "Director",
+      "sugi_desc": "Leading operations and strategic partnerships across Indonesia.",
+      "surya_role": "Bali Representative",
+      "surya_desc": "Dedicated support for our partners in the Bali region."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To be the leading technical partner in Indonesia trusted for integrity, German precision, and innovative solutions in the food processing industry.",
+      "mission_title": "Our Mission",
+      "mission_1": "Provide fast & accurate technical services.",
+      "mission_2": "Supply high-quality spare parts & raw materials.",
+      "mission_3": "Educate local industry with global hygiene standards."
+    }
+  },
+  "services_page": {
+    "hero": {
+      "subtitle": "European Know-How",
+      "title": "Reliable Solutions for <br/> The Food Industry",
+      "desc": "We combine European expertise with local industry experience. From machine installation, \"Master Butcher\" consulting, to high-quality collagen casing supply."
+    },
+    "detail": {
+      "item1": {
+        "title": "Technical Services & Training",
+        "subtitle": "Installation, Commissioning & Maintenance",
+        "desc": "Complete technical support for meat processing machines, from installation to long-term operation. We ensure your production runs smoothly, efficiently, and safely.",
+        "points": [
+          "Professional Installation & Commissioning",
+          "Preventive Maintenance & Repair",
+          "Operator Training (Handling & Hygiene)",
+          "Emergency Troubleshooting & Spare Parts"
+        ]
+      },
+      "item2": {
+        "title": "Butcher Master Consulting",
+        "subtitle": "Recipe, Efficiency & Hygiene",
+        "desc": "Optimize your operations with expert guidance from a German Certified Master Butcher (since 2002). We help increase productivity and consistent product quality.",
+        "points": [
+          "Recipe & Taste Development (Texture/Flavor)",
+          "Production Efficiency & Process Flow",
+          "Hygiene Procedures & Food Safety (HACCP)",
+          "Equipment Optimization & Calibration"
+        ]
+      },
+      "item3": {
+        "title": "High-Quality Casings",
+        "subtitle": "For Sausage & Meat Production",
+        "desc": "Premium collagen casings (Beef) designed for modern sausage production. Ensuring consistent filling performance, uniform diameter, and the perfect 'bite'.",
+        "points": [
+          "Collagen Casings (Caliber 13-50 mm)",
+          "Suitable for Cooked, Fresh & Dry Sausages",
+          "High Elasticity & Uniform Size",
+          "Functional Spices & Premix Supply"
+        ]
+      }
+    },
+    "process": {
+      "title": "How We Work",
+      "step1_title": "Consultation",
+      "step1_desc": "Practical discussion to identify production needs and efficiency.",
+      "step2_title": "Solution Design",
+      "step2_desc": "Designing recipes, machine selection, or appropriate maintenance plans.",
+      "step3_title": "Implementation",
+      "step3_desc": "Installation, commissioning, and hands-on operator training.",
+      "step4_title": "Support",
+      "step4_desc": "Ongoing technical support and original spare parts supply."
+    },
+    "brands": {
+      "title": "Machine Brands We Support",
+      "subtitle": "We are experienced in handling installation & service for leading brands.",
+      "handtmann": "Filling, Portioning, and Hanging Systems",
+      "guenther": "Injectors and Tumblers",
+      "kg": "Bowl Cutters, Mincer Grinders",
+      "kolbe": "Bandsaws, Mincer Grinders",
+      "mauting": "Smoking, Cooking and Chilling Chambers"
+    },
+    "cta": {
+      "title": "Ready to Upgrade <br/> Your Production?",
+      "desc": "Contact us for a technical visit schedule, recipe discussion, or collagen casing sample request.",
+      "btn": "Start Consultation"
+    }
+  },
+  "gallery_page": {
+    "hero": {
+      "subtitle": "Portfolio Showcase",
+      "title": "PRECISION IN <br/> EVERY INSTALLATION",
+      "featured": "Featured Project"
+    },
+    "grid": {
+      "subtitle": "Our Track Record",
+      "title": "Featured Projects",
+      "desc": "Click on the projects below to view detailed installation documentation and our technical workmanship.",
+      "view_doc": "View Documentation",
+      "gallery_label": "Project Gallery",
+      "showing": "Showing {{count}} technical documentation photos.",
+      "end_doc": "End of documentation for {{title}}"
+    },
+    "spotlight": {
+      "subtitle": "Project Spotlight",
+      "title": "MAUTING SMOKEHOUSE <br/> INSTALLATION",
+      "desc": "A technical achievement in modern smokehouse system installation. This project involved full integration of climate control systems and automated processing for consistent product results.",
+      "point1": "Full System Calibration",
+      "point2": "German Standard Commissioning"
+    },
+    "projects": {
+      "p1_title": "Line 830 + 226 Installation",
+      "p1_cat": "Full Line Setup",
+      "p1_desc": "Complete high-speed sausage production line installation with precise synchronization between filler and hanging line.",
+      
+      "p2_title": "612 Machine Overhaul",
+      "p2_cat": "Maintenance",
+      "p2_desc": "Total rejuvenation of vacuum filler machine. Complete disassembly, seal replacement, and recalibration to factory standards.",
+      
+      "p3_title": "Casing Application Trial",
+      "p3_cat": "R&D Support",
+      "p3_desc": "Collagen casing application trials under various temperature and humidity conditions to find the best production formula.",
+      
+      "p4_title": "Mauting Chamber Setup",
+      "p4_cat": "Facility Installation",
+      "p4_desc": "Installation and calibration of industrial Mauting smokehouse system for uniform smoking results."
+    }
+  },
+  "contact_page": {
+    "hero": {
+      "subtitle": "Get In Touch",
+      "title": "Let's Start a <br/> Conversation",
+      "desc": "Do you need machine installation, recipe consultation, or casing supply? Our expert team is ready to help your industrial needs."
+    },
+    "info": {
+      "office_title": "Head Office",
+      "office_desc": "Lippo Cikarang, Bekasi",
+      "office_sub": "West Java, Indonesia",
+      "call_title": "Call Us",
+      "call_sub": "Mon-Fri from 8am to 5pm",
+      "email_title": "Email Us",
+      "email_sub": "We reply within 24 hours",
+      "hours_title": "Working Hours",
+      "hours_desc": "Monday - Friday",
+      "hours_sub": "08:00 AM - 05:00 PM"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "placeholder_msg": "Tell us about your needs...",
+      "btn_send": "Send Message",
+      "btn_sending": "Sending...",
+      "success_msg": "Message sent successfully! Thank you for contacting us.",
+      "error_msg": "Failed to send message. Please check your internet connection or try again later.",
+      "subjects": {
+        "general": "General Inquiry",
+        "install": "Machine Installation",
+        "supply": "Casing Supply",
+        "consult": "Consulting Request"
+      }
+    },
+    "map": {
+      "office_label": "Our Office",
+      "address": "Dago Villa Complex, Jl. Gunung Patuha No 72,<br />Cibatu, South Cikarang,<br />Lippo Cikarang - Bekasi, West Java 17550.",
+      "directions": "Get Directions"
+    }
+  }
+}

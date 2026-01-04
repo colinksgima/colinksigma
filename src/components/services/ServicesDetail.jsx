@@ -1,59 +1,45 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Wrench, ChefHat, PackageCheck, Check } from 'lucide-react';
-
-const servicesData = [
-  {
-    id: 1,
-    // Sesuai PDF Halaman 2: Technical Services & Training
-    title: "Technical Services & Training",
-    subtitle: "Installation, Commissioning & Maintenance",
-    desc: "Dukungan teknis lengkap untuk mesin pengolahan daging, dari instalasi hingga operasi jangka panjang. Kami memastikan produksi Anda berjalan lancar, efisien, dan aman.",
-    icon: <Wrench size={32} />,
-    color: "bg-blue-100 text-blue-900",
-    image: "/images/installation.jpg", // Ganti dengan foto instalasi mesin (misal Handtmann)
-    points: [
-      "Instalasi & Commissioning Profesional",
-      "Maintenance Preventif & Perbaikan (Repair)",
-      "Training Operator (Handling & Hygiene)",
-      "Troubleshooting Darurat & Spare Parts"
-    ]
-  },
-  {
-    id: 2,
-    // Sesuai PDF Halaman 3: Butcher Master Consulting
-    title: "Butcher Master Consulting",
-    subtitle: "Recipe, Efficiency & Hygiene",
-    desc: "Optimalkan operasi Anda dengan panduan ahli dari German Certified Master Butcher (sejak 2002). Kami membantu meningkatkan produktivitas dan kualitas produk yang konsisten.",
-    icon: <ChefHat size={32} />,
-    color: "bg-orange-100 text-orange-600",
-    image: "/images/Lars.jpg", 
-    points: [
-      "Pengembangan Resep & Rasa (Texture/Flavor)",
-      "Efisiensi Produksi & Alur Proses",
-      "Prosedur Higiene & Keamanan Pangan (HACCP)",
-      "Optimasi Peralatan & Kalibrasi"
-    ]
-  },
-  {
-    id: 3,
-    // Sesuai PDF Halaman 4: High-Quality Collagen Casings
-    title: "High-Quality Casings",
-    subtitle: "For Sausage & Meat Production",
-    desc: "Casing kolagen premium (Sapi) yang dirancang untuk produksi sosis modern. Memastikan performa pengisian yang konsisten, diameter seragam, dan 'gigitan' yang pas.",
-    icon: <PackageCheck size={32} />,
-    color: "bg-green-100 text-green-700",
-    image: "/images/casing.jpg", 
-    points: [
-      "Collagen Casings (Kaliber 13-50 mm)",
-      "Cocok untuk Sosis Masak, Segar & Kering",
-      "Elastisitas Tinggi & Ukuran Seragam",
-      "Suplai Bumbu & Premix Fungsional"
-    ]
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const ServicesDetail = () => {
+  const { t } = useTranslation();
+
+  // Kita memindahkan data ke dalam komponen agar bisa menggunakan hook `t`
+  const servicesData = [
+    {
+      id: 1,
+      title: t('services_page.detail.item1.title'),
+      subtitle: t('services_page.detail.item1.subtitle'),
+      desc: t('services_page.detail.item1.desc'),
+      icon: <Wrench size={32} />,
+      color: "bg-blue-100 text-blue-900",
+      image: "/images/installation-830-226/installation-1.jpg", 
+      points: t('services_page.detail.item1.points', { returnObjects: true })
+    },
+    {
+      id: 2,
+      title: t('services_page.detail.item2.title'),
+      subtitle: t('services_page.detail.item2.subtitle'),
+      desc: t('services_page.detail.item2.desc'),
+      icon: <ChefHat size={32} />,
+      color: "bg-orange-100 text-orange-600",
+      image: "/images/seasoning.jpeg", 
+      points: t('services_page.detail.item2.points', { returnObjects: true })
+    },
+    {
+      id: 3,
+      title: t('services_page.detail.item3.title'),
+      subtitle: t('services_page.detail.item3.subtitle'),
+      desc: t('services_page.detail.item3.desc'),
+      icon: <PackageCheck size={32} />,
+      color: "bg-green-100 text-green-700",
+      image: "/images/casing3.jpg", 
+      points: t('services_page.detail.item3.points', { returnObjects: true })
+    }
+  ];
+
   return (
     <section className="py-12 bg-white">
       <div className="container mx-auto px-6">
@@ -98,7 +84,7 @@ const ServicesDetail = () => {
               </p>
               
               <ul className="grid grid-cols-1 gap-3 pt-4">
-                {item.points.map((point, i) => (
+                {item.points && item.points.map((point, i) => (
                   <li key={i} className="flex items-center gap-3 text-gray-700 font-medium">
                     <span className="bg-green-100 text-green-600 p-1 rounded-full min-w-[24px]">
                       <Check size={16} />

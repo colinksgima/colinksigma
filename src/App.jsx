@@ -18,9 +18,25 @@ import Terms from './pages/Terms';                 // IMPORT BARU
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
+
   useEffect(() => {
+    // 1. Matikan fitur browser yang mengingat posisi scroll
+    // Ini memaksa browser untuk tidak 'sok tahu' mengembalikan posisi scroll lama
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+
+    // 2. Scroll ke atas
     window.scrollTo(0, 0);
+    
+    // 3. (Opsional) Tambahkan sedikit delay 0 detik untuk memastikan 
+    // perintah ini dijalankan TERAKHIR setelah render selesai
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
+
   }, [pathname]);
+
   return null;
 };
 

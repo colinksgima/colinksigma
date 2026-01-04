@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, MapPin, ExternalLink, Loader2 } from 'lucide-react';
-import emailjs from '@emailjs/browser'; // Pastikan library ini sudah diinstall
-
-// --- LEAFLET IMPORTS ---
+import emailjs from '@emailjs/browser';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+import { useTranslation, Trans } from 'react-i18next'; // Import Hook
 
 let DefaultIcon = L.icon({
     iconUrl: icon,
@@ -20,6 +18,7 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const ContactForm = () => {
+  const { t } = useTranslation();
   const position = [-6.339420, 107.164530];
 
   const [formData, setFormData] = useState({
@@ -30,7 +29,7 @@ const ContactForm = () => {
     message: ''
   });
 
-  const [status, setStatus] = useState('idle'); // idle, loading, success, error
+  const [status, setStatus] = useState('idle');
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -40,12 +39,10 @@ const ContactForm = () => {
     e.preventDefault();
     setStatus('loading');
 
-    // --- DATA KREDENSIAL EMAILJS ANDA ---
     const SERVICE_ID = 'service_lacolink';
     const TEMPLATE_ID = 'template_2c00kob';
     const PUBLIC_KEY = 'OoysGIZ90LAEns-tP';
 
-    // Menyiapkan data agar sesuai dengan variabel {{...}} di Template EmailJS
     const templateParams = {
       firstName: formData.firstName,
       lastName: formData.lastName,
@@ -54,19 +51,17 @@ const ContactForm = () => {
       message: formData.message,
     };
 
-    // Proses Pengiriman Email
     emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         setStatus('success');
-        // Reset form setelah berhasil
         setFormData({ firstName: '', lastName: '', email: '', subject: 'General Inquiry', message: '' });
-        alert("Pesan berhasil dikirim! Terima kasih telah menghubungi kami.");
+        alert(t('contact_page.form.success_msg'));
       })
       .catch((err) => {
         console.log('FAILED...', err);
         setStatus('error');
-        alert("Gagal mengirim pesan. Mohon periksa koneksi internet Anda atau coba lagi nanti.");
+        alert(t('contact_page.form.error_msg'));
       })
       .finally(() => {
         setStatus('idle');
@@ -86,12 +81,12 @@ const ContactForm = () => {
             transition={{ duration: 0.8 }}
             className="lg:w-1/2 p-10 md:p-14"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Send us a Message</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">{t('contact_page.form.title')}</h2>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-2">First Name</label>
+                  <label className="block text-sm font-bold text-gray-700 mb-2">{t('contact_page.form.first_name')}</label>
                   <input 
                     type="text" 
                     name="firstName"
@@ -103,7 +98,7 @@ const ContactForm = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-2">Last Name</label>
+                  <label className="block text-sm font-bold text-gray-700 mb-2">{t('contact_page.form.last_name')}</label>
                   <input 
                     type="text" 
                     name="lastName"
@@ -116,7 +111,7 @@ const ContactForm = () => {
               </div>
 
               <div>
-                <label className="block text-sm font-bold text-gray-700 mb-2">Email Address</label>
+                <label className="block text-sm font-bold text-gray-700 mb-2">{t('contact_page.form.email')}</label>
                 <input 
                   type="email" 
                   name="email"
@@ -129,29 +124,29 @@ const ContactForm = () => {
               </div>
 
               <div>
-                <label className="block text-sm font-bold text-gray-700 mb-2">Subject</label>
+                <label className="block text-sm font-bold text-gray-700 mb-2">{t('contact_page.form.subject')}</label>
                 <select 
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-blue-900 focus:ring-0 outline-none transition"
                 >
-                  <option value="General Inquiry">General Inquiry</option>
-                  <option value="Machine Installation">Machine Installation</option>
-                  <option value="Casing Supply">Casing Supply</option>
-                  <option value="Consulting Request">Consulting Request</option>
+                  <option value="General Inquiry">{t('contact_page.form.subjects.general')}</option>
+                  <option value="Machine Installation">{t('contact_page.form.subjects.install')}</option>
+                  <option value="Casing Supply">{t('contact_page.form.subjects.supply')}</option>
+                  <option value="Consulting Request">{t('contact_page.form.subjects.consult')}</option>
                 </select>
               </div>
 
               <div>
-                <label className="block text-sm font-bold text-gray-700 mb-2">Message</label>
+                <label className="block text-sm font-bold text-gray-700 mb-2">{t('contact_page.form.message')}</label>
                 <textarea 
                   rows="4" 
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-200 focus:border-blue-900 focus:ring-0 outline-none transition" 
-                  placeholder="Tell us about your needs..."
+                  placeholder={t('contact_page.form.placeholder_msg')}
                   required
                 ></textarea>
               </div>
@@ -162,9 +157,9 @@ const ContactForm = () => {
                 className="w-full bg-blue-900 text-white font-bold py-4 rounded-lg hover:bg-blue-800 transition shadow-lg flex items-center justify-center gap-2 disabled:bg-blue-400 disabled:cursor-not-allowed"
               >
                 {status === 'loading' ? (
-                  <>Sending... <Loader2 className="animate-spin" size={18} /></>
+                  <>{t('contact_page.form.btn_sending')} <Loader2 className="animate-spin" size={18} /></>
                 ) : (
-                  <>Send Message <Send size={18} /></>
+                  <>{t('contact_page.form.btn_send')} <Send size={18} /></>
                 )}
               </button>
             </form>
@@ -200,12 +195,14 @@ const ContactForm = () => {
              
              <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-6 rounded-xl shadow-lg border-l-4 border-orange-500 z-[400]">
                <h4 className="font-bold text-gray-900 text-lg mb-3 flex items-center gap-2">
-                 <MapPin className="text-orange-500" size={20}/> Our Office
+                 <MapPin className="text-orange-500" size={20}/> {t('contact_page.map.office_label')}
                </h4>
                <p className="text-sm text-gray-700 leading-relaxed font-medium mb-5">
-                 Kompleks Dago Villa, Jl. Gunung Patuha No 72,<br />
-                 Kel. Cibatu, Kec. Cikarang Selatan,<br />
-                 Lippo Cikarang - Bekasi, Jawa Barat 17550.
+                 <Trans i18nKey="contact_page.map.address">
+                    Kompleks Dago Villa, Jl. Gunung Patuha No 72,<br />
+                    Kel. Cibatu, Kec. Cikarang Selatan,<br />
+                    Lippo Cikarang - Bekasi, Jawa Barat 17550.
+                 </Trans>
                </p>
                <a 
                  href={`https://www.google.com/maps/dir/?api=1&destination=${position[0]},${position[1]}`}
@@ -213,7 +210,7 @@ const ContactForm = () => {
                  rel="noopener noreferrer"
                  className="flex items-center justify-center gap-2 w-full bg-blue-900 text-white font-bold py-3 rounded-lg hover:bg-orange-500 transition-colors shadow-md text-sm"
                >
-                 Get Directions <ExternalLink size={16} />
+                 {t('contact_page.map.directions')} <ExternalLink size={16} />
                </a>
              </div>
           </motion.div>

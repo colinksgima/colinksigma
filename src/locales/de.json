@@ -1,0 +1,264 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "services": "Dienstleistungen",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "desc": "Strategischer Partner der Fleischverarbeitungsindustrie. Wir bringen deutsche Ingenieurskunst mit responsivem und vertrauenswürdigem lokalem Service.",
+    "expertise": "Unsere Expertise",
+    "links": "Schnelllinks",
+    "office": "Hauptsitz",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "services_list": {
+      "install": "Maschineninstallation (Handtmann)",
+      "overhaul": "Generalüberholung & Reparatur",
+      "consult": "Beratung für Wurstrezepte",
+      "supply": "Lieferung von Kollagendärmen",
+      "training": "Bedienerschulung"
+    }
+  },
+  "stats": {
+    "exp": "Jahre Erfahrung",
+    "exp_desc": "In Deutschland ausgebildet",
+    "tech": "Jahre Technik",
+    "tech_desc": "Feldservice-Experte",
+    "cert": "Zertifiziert",
+    "cert_desc": "Metzgermeister Standard",
+    "brand": "Globale Marken",
+    "brand_desc": "Vertrauenswürdiger Maschinensupport"
+  },
+  "home": {
+    "hero": {
+      "since": "Seit 2025",
+      "title": "Europäische Expertise, <br/> Indonesisches Herz.",
+      "desc": "PT. Colink Sigma Indonesia ist Ihr strategischer Partner für die fleischverarbeitende Industrie. Wir verkaufen nicht nur Produkte, sondern bieten umfassende Lösungen für Ihre Produktionseffizienz und Qualität.",
+      "tech_service": "Technischer Dienst",
+      "tech_desc": "Maschineninstallation, Wartung & Schulung.",
+      "master_consult": "Meisterberatung",
+      "master_desc": "Rezepte & Effizienz von deutschen Experten.",
+      "premium_casing": "Premium-Därme",
+      "premium_desc": "Lieferung hochwertiger Kollagendärme.",
+      "btn_about": "Über Uns",
+      "btn_services": "Alle Dienstleistungen",
+      "trusted_sol": "Vertrauenswürdige Lösung",
+      "trusted_sub": "Für die moderne Lebensmittelindustrie"
+    },
+    "brands": {
+      "trusted": "Vertrauenswürdige Expertise Mit"
+    },
+    "why_choose": {
+      "label": "Warum Uns Wählen",
+      "title": "Europäische Präzision für die <br/> indonesische Industrie",
+      "desc": "Wir verstehen, dass in der fleischverarbeitenden Industrie Präzision alles ist. Mit jahrzehntelanger Erfahrung in Deutschland und Indonesien bringen wir höchste Standards in Ihre Fabrik.",
+      "german_cert": "Deutsch Zertifiziert",
+      "german_desc": "Original deutsche Metzgermeister-Qualitätsstandards seit 2002.",
+      "reliable": "Zuverlässiger Support",
+      "reliable_desc": "Reaktionsschneller technischer Support zur Minimierung von Ausfallzeiten.",
+      "end_to_end": "End-to-End-Lösung",
+      "end_to_end_desc": "Komplettlösungen von Maschinen, Installation bis hin zu Produktrezepturen."
+    },
+    "services": {
+      "title": "Unsere Kernkompetenzen",
+      "tech_title": "Technischer Service",
+      "tech_desc": "Hochpräzise Maschineninstallation & Reparatur.",
+      "butcher_title": "Metzgerberatung",
+      "butcher_desc": "Rezeptoptimierung & Produktionseffizienz.",
+      "supply_title": "Premium-Versorgung",
+      "supply_desc": "Hochwertige Kollagendärme & Zutaten.",
+      "learn_more": "Mehr Erfahren"
+    },
+    "cta": {
+      "title": "Bereit, Ihre Produktion <br/> zu verbessern?",
+      "desc": "Besprechen Sie Ihre Maschinen- und Darmbedürfnisse mit unseren Experten für maximale Ergebnisse.",
+      "btn": "Kontaktieren Sie uns"
+    }
+  },
+  "about": {
+    "hero": {
+      "subtitle": "Wer wir sind",
+      "title": "Deutsche Expertise. <br/> Indonesische Lösungen.",
+      "desc": "PT. Colink Sigma Indonesia steht als Brücke zwischen europäischer Standard-Fleischverarbeitungstechnologie und lokalen Industriebedürfnissen in Indonesien."
+    },
+    "story": {
+      "established": "Gegründet",
+      "title": "Ein neuer Standard in der <br/> Lebensmitteltechnologie",
+      "desc": "Obwohl erst 2025 gegründet, wurde unser Fundament an Fachwissen über Jahrzehnte aufgebaut. Geleitet von in Deutschland ausgebildeten Experten bringen wir strenge \"Deutsche Metzger\"-Standards in jeden unserer Dienste.",
+      "cert_title": "Zertifizierter Metzgermeister",
+      "cert_desc": "Höchste Qualifikation in der Fleischverarbeitung (Meisterbrief) seit 2002.",
+      "edu_title": "In Deutschland ausgebildet",
+      "edu_desc": "Formale Ausbildung zum Techniker & Metzger in Deutschland seit 1998."
+    },
+    "team": {
+      "title": "Lernen Sie die Führung kennen",
+      "lars_role": "Technischer Direktor",
+      "lars_desc": "Zertifizierter deutscher Metzgermeister & technischer Experte seit 1998.",
+      "sugi_role": "Direktorin",
+      "sugi_desc": "Leitung von Betrieb und strategischen Partnerschaften in ganz Indonesien.",
+      "surya_role": "Bali-Vertreterin",
+      "surya_desc": "Dedizierte Unterstützung für unsere Partner in der Region Bali."
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "desc": "Der führende technische Partner in Indonesien zu sein, dem man wegen Integrität, deutscher Präzision und innovativen Lösungen in der lebensmittelverarbeitenden Industrie vertraut.",
+      "mission_title": "Unsere Mission",
+      "mission_1": "Bereitstellung schneller & präziser technischer Dienste.",
+      "mission_2": "Lieferung hochwertiger Ersatzteile & Rohstoffe.",
+      "mission_3": "Aufklärung der lokalen Industrie über globale Hygienestandards."
+    }
+  },
+  "services_page": {
+    "hero": {
+      "subtitle": "Europäisches Know-How",
+      "title": "Zuverlässige Lösungen für <br/> die Lebensmittelindustrie",
+      "desc": "Wir kombinieren europäische Expertise mit lokaler Industrieerfahrung. Von der Maschineninstallation über \"Metzgermeister\"-Beratung bis hin zur Lieferung hochwertiger Kollagendärme."
+    },
+    "detail": {
+      "item1": {
+        "title": "Technischer Service & Schulung",
+        "subtitle": "Installation, Inbetriebnahme & Wartung",
+        "desc": "Kompletter technischer Support für Fleischverarbeitungsmaschinen. Wir sorgen dafür, dass Ihre Produktion reibungslos, effizient und sicher läuft.",
+        "points": [
+          "Professionelle Installation & Inbetriebnahme",
+          "Vorbeugende Wartung & Reparatur",
+          "Bedienerschulung (Handhabung & Hygiene)",
+          "Notfall-Fehlerbehebung & Ersatzteile"
+        ]
+      },
+      "item2": {
+        "title": "Metzgermeister-Beratung",
+        "subtitle": "Rezeptur, Effizienz & Hygiene",
+        "desc": "Optimieren Sie Ihren Betrieb mit fachkundiger Anleitung eines deutschen Metzgermeisters (seit 2002). Wir helfen, Produktivität und Produktqualität zu steigern.",
+        "points": [
+          "Rezept- & Geschmacksentwicklung (Textur/Aroma)",
+          "Produktionseffizienz & Prozessablauf",
+          "Hygieneverfahren & Lebensmittelsicherheit (HACCP)",
+          "Geräteoptimierung & Kalibrierung"
+        ]
+      },
+      "item3": {
+        "title": "Hochwertige Därme",
+        "subtitle": "Für Wurst- & Fleischproduktion",
+        "desc": "Premium-Kollagendärme (Rind), entwickelt für die moderne Wurstproduktion. Gewährleistet konsistente Füllleistung, einheitlichen Durchmesser und den perfekten 'Biss'.",
+        "points": [
+          "Kollagendärme (Kaliber 13-50 mm)",
+          "Geeignet für Brüh-, Roh- & Trockenwurst",
+          "Hohe Elastizität & einheitliche Größe",
+          "Lieferung von funktionellen Gewürzen & Vormischungen"
+        ]
+      }
+    },
+    "process": {
+      "title": "Wie wir arbeiten",
+      "step1_title": "Beratung",
+      "step1_desc": "Praktische Diskussion zur Ermittlung von Produktionsbedarf und Effizienz.",
+      "step2_title": "Lösungsdesign",
+      "step2_desc": "Entwurf von Rezepten, Maschinenauswahl oder Wartungsplänen.",
+      "step3_title": "Implementierung",
+      "step3_desc": "Installation, Inbetriebnahme und praktische Bedienerschulung.",
+      "step4_title": "Support",
+      "step4_desc": "Laufender technischer Support und Original-Ersatzteilversorgung."
+    },
+    "brands": {
+      "title": "Maschinenmarken, die wir unterstützen",
+      "subtitle": "Wir haben Erfahrung in der Installation & Wartung führender Marken.",
+      "handtmann": "Füll-, Portionier- und Aufhängesysteme",
+      "guenther": "Injektoren und Tumbler",
+      "kg": "Schüsselkutter, Fleischwölfe",
+      "kolbe": "Bandsägen, Fleischwölfe",
+      "mauting": "Rauch-, Koch- und Kühlkammern"
+    },
+    "cta": {
+      "title": "Bereit, Ihre Produktion <br/> zu verbessern?",
+      "desc": "Kontaktieren Sie uns für einen technischen Besuchstermin, Rezeptdiskussionen oder Musteranfragen für Kollagendärme.",
+      "btn": "Beratung Starten"
+    }
+  },
+  "gallery_page": {
+    "hero": {
+      "subtitle": "Portfolio-Präsentation",
+      "title": "PRÄZISION IN <br/> JEDER INSTALLATION",
+      "featured": "Ausgewähltes Projekt"
+    },
+    "grid": {
+      "subtitle": "Unsere Erfolgsbilanz",
+      "title": "Ausgewählte Projekte",
+      "desc": "Klicken Sie auf die Projekte unten, um detaillierte Installationsdokumentationen und unsere technische Verarbeitung zu sehen.",
+      "view_doc": "Dokumentation ansehen",
+      "gallery_label": "Projektgalerie",
+      "showing": "Zeigt {{count}} technische Dokumentationsfotos.",
+      "end_doc": "Ende der Dokumentation für {{title}}"
+    },
+    "spotlight": {
+      "subtitle": "Projekt-Highlight",
+      "title": "MAUTING RAUCHKAMMER <br/> INSTALLATION",
+      "desc": "Eine technische Errungenschaft bei der Installation moderner Rauchkammersysteme. Dieses Projekt umfasste die vollständige Integration von Klimakontrollsystemen und automatisierter Verarbeitung für konsistente Produktergebnisse.",
+      "point1": "Vollständige Systemkalibrierung",
+      "point2": "Inbetriebnahme nach deutschem Standard"
+    },
+    "projects": {
+      "p1_title": "Linie 830 + 226 Installation",
+      "p1_cat": "Komplette Linien Einrichtung",
+      "p1_desc": "Komplette Installation einer Hochgeschwindigkeits-Wurstproduktionslinie mit präziser Synchronisation zwischen Füller und Aufhängelinie.",
+      
+      "p2_title": "612 Maschinenüberholung",
+      "p2_cat": "Wartung",
+      "p2_desc": "Vollständige Erneuerung der Vakuumfüllmaschine. Komplette Demontage, Dichtungsaustausch und Neukalibrierung nach Werksstandards.",
+      
+      "p3_title": "Darm-Anwendungsversuch",
+      "p3_cat": "F&E Unterstützung",
+      "p3_desc": "Anwendungsversuche mit Kollagendärmen unter verschiedenen Temperatur- und Feuchtigkeitsbedingungen, um die beste Produktionsformel zu finden.",
+      
+      "p4_title": "Mauting Kammer Einrichtung",
+      "p4_cat": "Anlageninstallation",
+      "p4_desc": "Installation und Kalibrierung des industriellen Mauting-Rauchkammersystems für gleichmäßige Rauchergebnisse."
+    }
+  },
+  "contact_page": {
+    "hero": {
+      "subtitle": "Kontaktieren Sie uns",
+      "title": "Lassen Sie uns ein <br/> Gespräch beginnen",
+      "desc": "Benötigen Sie Maschineninstallation, Rezeptberatung oder Darmlieferung? Unser Expertenteam steht bereit, um Ihre industriellen Bedürfnisse zu unterstützen."
+    },
+    "info": {
+      "office_title": "Hauptsitz",
+      "office_desc": "Lippo Cikarang, Bekasi",
+      "office_sub": "West-Java, Indonesien",
+      "call_title": "Rufen Sie uns an",
+      "call_sub": "Mo-Fr von 8 bis 17 Uhr",
+      "email_title": "Schreiben Sie uns",
+      "email_sub": "Wir antworten innerhalb von 24 Stunden",
+      "hours_title": "Arbeitszeiten",
+      "hours_desc": "Montag - Freitag",
+      "hours_sub": "08:00 - 17:00 Uhr"
+    },
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "email": "E-Mail-Adresse",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "placeholder_msg": "Erzählen Sie uns von Ihren Bedürfnissen...",
+      "btn_send": "Nachricht Senden",
+      "btn_sending": "Senden...",
+      "success_msg": "Nachricht erfolgreich gesendet! Vielen Dank für Ihre Kontaktaufnahme.",
+      "error_msg": "Nachricht konnte nicht gesendet werden. Bitte überprüfen Sie Ihre Internetverbindung oder versuchen Sie es später erneut.",
+      "subjects": {
+        "general": "Allgemeine Anfrage",
+        "install": "Maschineninstallation",
+        "supply": "Darmlieferung",
+        "consult": "Beratungsanfrage"
+      }
+    },
+    "map": {
+      "office_label": "Unser Büro",
+      "address": "Dago Villa Komplex, Jl. Gunung Patuha Nr. 72,<br />Cibatu, Süd-Cikarang,<br />Lippo Cikarang - Bekasi, West-Java 17550.",
+      "directions": "Wegbeschreibung erhalten"
+    }
+  }
+}

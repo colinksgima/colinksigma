@@ -1,55 +1,50 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone } from 'lucide-react'; // Import Icon Phone
+import { Mail, Phone } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-const teamMembers = [
-  {
-    name: "Lars Arnstaedt",
-    role: "Technical Director",
-    desc: "German Certified Master Butcher & Technical Expert since 1998.",
-    img: "/images/lars.png",
-    email: "lacolink2025@gmail.com", // Sesuaikan dengan PPT
-    phone: "+62 853-1101-2421"      // GANTI dengan nomor asli Lars
-  },
-  {
-    name: "NI NYOMAN SUGI ARIANTINI ",
-    role: "Director",
-    desc: "Leading operations and strategic partnerships across Indonesia.",
-    img: "/images/sugi.png",
-    email: "sugicolink@gmail.com", // Sesuaikan dengan PPT
-    phone: "+62 853-1382-7131"      // GANTI dengan nomor asli Ibu Sugi
-  },
-  {
-    name: "NI NYOMAN SURYANINGSIH",
-    role: "Bali Representative",
-    desc: "Dedicated support for our partners in the Bali region.",
-    img: "/images/surya.png",
-    email: "suryacolink2025@gmail.com", // Sesuaikan dengan PPT
-    phone: "+62 812-3761-3484"      // GANTI dengan nomor asli Ibu Surya
-  }
-];
-
-// Variabel Animasi Container
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.3
-    }
-  }
-};
-
-const cardVariants = {
-  hidden: { opacity: 0, y: 50 },
-  visible: { 
-    opacity: 1, 
-    y: 0, 
-    transition: { duration: 0.8, ease: "easeOut" } 
-  }
-};
-
+// --- DATA TIM DI DALAM KOMPONEN AGAR BISA AKSES `t` ---
 const AboutTeam = () => {
+  const { t } = useTranslation();
+
+  const teamMembers = [
+    {
+      name: "Lars Arnstaedt",
+      role: t('about.team.lars_role'),
+      desc: t('about.team.lars_desc'),
+      img: "/images/lars.png",
+      email: "lacolink2025@gmail.com",
+      phone: "+62 853-1101-2421"
+    },
+    {
+      name: "NI NYOMAN SUGI ARIANTINI",
+      role: t('about.team.sugi_role'),
+      desc: t('about.team.sugi_desc'),
+      img: "/images/sugi.png",
+      email: "sugicolink@gmail.com",
+      phone: "+62 853-1382-7131"
+    },
+    {
+      name: "NI NYOMAN SURYANINGSIH",
+      role: t('about.team.surya_role'),
+      desc: t('about.team.surya_desc'),
+      img: "/images/surya.png",
+      email: "suryacolink2025@gmail.com",
+      phone: "+62 812-3761-3484"
+    }
+  ];
+
+  // Variabel Animasi
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { staggerChildren: 0.3 } }
+  };
+
+  const cardVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  };
+
   return (
     <section className="py-24 bg-gray-50">
       <div className="container mx-auto px-6">
@@ -60,7 +55,7 @@ const AboutTeam = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Meet The Leadership</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{t('about.team.title')}</h2>
           <div className="w-20 h-1.5 bg-orange-500 mx-auto mt-4 rounded-full"></div>
         </motion.div>
 
@@ -98,25 +93,22 @@ const AboutTeam = () => {
                    "{member.desc}"
                  </p>
 
-                 {/* CONTACT SECTION (Email & Phone) */}
+                 {/* CONTACT SECTION */}
                  <div className="mt-auto pt-4 border-t border-gray-100 flex flex-col gap-2">
-                    {/* Email Link */}
-                    <a 
-                      href={`mailto:${member.email}`} 
-                      className="inline-flex items-center justify-center gap-2 text-sm font-medium text-gray-600 hover:text-orange-500 transition-colors group-hover:text-orange-600"
-                    >
-                      <Mail size={16} />
-                      {member.email}
-                    </a>
-
-                    {/* Phone Link */}
-                    <a 
-                      href={`tel:${member.phone.replace(/\s+/g, '')}`} // Menghapus spasi untuk href tel:
-                      className="inline-flex items-center justify-center gap-2 text-sm font-medium text-gray-600 hover:text-orange-500 transition-colors group-hover:text-orange-600"
-                    >
-                      <Phone size={16} />
-                      {member.phone}
-                    </a>
+                   <a 
+                     href={`mailto:${member.email}`} 
+                     className="inline-flex items-center justify-center gap-2 text-sm font-medium text-gray-600 hover:text-orange-500 transition-colors group-hover:text-orange-600"
+                   >
+                     <Mail size={16} />
+                     {member.email}
+                   </a>
+                   <a 
+                     href={`tel:${member.phone.replace(/\s+/g, '')}`} 
+                     className="inline-flex items-center justify-center gap-2 text-sm font-medium text-gray-600 hover:text-orange-500 transition-colors group-hover:text-orange-600"
+                   >
+                     <Phone size={16} />
+                     {member.phone}
+                   </a>
                  </div>
 
                </div>

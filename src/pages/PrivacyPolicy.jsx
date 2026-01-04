@@ -66,8 +66,8 @@ const PrivacyPolicy = () => {
               <div className="mt-4 bg-gray-50 p-6 rounded-xl border border-gray-100">
                 <p className="font-bold text-blue-900">PT. Colink Sigma Indonesia</p>
                 <p>Cikarang, Bekasi, Jawa Barat, Indonesia</p>
-                <p>Email: info@colinksigma.com</p>
-                <p>Phone: +62 812-3456-7890</p>
+                <p>Email: lacolink2025@gmail.com</p>
+                <p>Phone: +62 853 1101 2421</p>
               </div>
             </section>
 

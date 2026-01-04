@@ -1,0 +1,264 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "gallery": "Galeri",
+    "contact": "Kontak"
+  },
+  "footer": {
+    "desc": "Mitra strategis industri pengolahan daging. Membawa presisi teknik Jerman dengan layanan lokal yang responsif dan terpercaya.",
+    "expertise": "Keahlian Kami",
+    "links": "Tautan Cepat",
+    "office": "Kantor Pusat",
+    "rights": "Hak cipta dilindungi undang-undang.",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat & Ketentuan",
+    "services_list": {
+      "install": "Instalasi Mesin (Handtmann)",
+      "overhaul": "Overhaul & Perbaikan",
+      "consult": "Konsultasi Resep Sosis",
+      "supply": "Supply Casing Kolagen",
+      "training": "Training Operator"
+    }
+  },
+  "stats": {
+    "exp": "Tahun Pengalaman",
+    "exp_desc": "Pendidikan Butcher Jerman",
+    "tech": "Tahun Teknis",
+    "tech_desc": "Ahli Layanan Lapangan",
+    "cert": "Tersertifikasi",
+    "cert_desc": "Standar Master Butcher",
+    "brand": "Merek Global",
+    "brand_desc": "Dukungan Mesin Terpercaya"
+  },
+  "home": {
+    "hero": {
+      "since": "Sejak 2025",
+      "title": "Keahlian Eropa, <br/> Hati Indonesia.",
+      "desc": "PT. Colink Sigma Indonesia hadir sebagai mitra strategis industri pengolahan daging. Kami tidak hanya menjual produk, tetapi memberikan solusi menyeluruh untuk efisiensi dan kualitas produksi Anda.",
+      "tech_service": "Layanan Teknis",
+      "tech_desc": "Instalasi, Maintenance, & Training Mesin.",
+      "master_consult": "Konsultasi Ahli",
+      "master_desc": "Resep & Efisiensi dari Ahli Jerman.",
+      "premium_casing": "Casing Premium",
+      "premium_desc": "Supply Casing Kolagen Berkualitas.",
+      "btn_about": "Tentang Kami",
+      "btn_services": "Lihat Layanan Lengkap",
+      "trusted_sol": "Solusi Terpercaya",
+      "trusted_sub": "Untuk Industri Pangan Modern"
+    },
+    "brands": {
+      "trusted": "Keahlian Terpercaya Dengan"
+    },
+    "why_choose": {
+      "label": "Mengapa Memilih Kami",
+      "title": "Membawa Presisi Eropa ke <br/> Industri Indonesia",
+      "desc": "Kami memahami bahwa dalam industri pengolahan daging, presisi adalah segalanya. Dengan pengalaman puluhan tahun di Jerman dan Indonesia, kami membawa standar tertinggi ke pabrik Anda.",
+      "german_cert": "Sertifikasi Jerman",
+      "german_desc": "Standar kualitas master butcher asli Jerman sejak 2002.",
+      "reliable": "Dukungan Handal",
+      "reliable_desc": "Dukungan teknis cepat tanggap untuk meminimalisir downtime.",
+      "end_to_end": "Solusi Lengkap",
+      "end_to_end_desc": "Solusi lengkap dari mesin, instalasi, hingga resep produk."
+    },
+    "services": {
+      "title": "Kompetensi Utama Kami",
+      "tech_title": "Layanan Teknis",
+      "tech_desc": "Instalasi & perbaikan mesin presisi tinggi.",
+      "butcher_title": "Konsultasi Butcher",
+      "butcher_desc": "Optimasi resep & efisiensi produksi.",
+      "supply_title": "Suplai Premium",
+      "supply_desc": "Casing kolagen & bumbu berkualitas.",
+      "learn_more": "Pelajari Lebih Lanjut"
+    },
+    "cta": {
+      "title": "Siap Meningkatkan <br/> Produksi Anda?",
+      "desc": "Konsultasikan kebutuhan mesin dan casing Anda bersama ahli kami untuk hasil yang maksimal.",
+      "btn": "Hubungi Kami"
+    }
+  },
+  "about": {
+    "hero": {
+      "subtitle": "Siapa Kami",
+      "title": "Keahlian Jerman. <br/> Solusi Indonesia.",
+      "desc": "PT. Colink Sigma Indonesia berdiri sebagai jembatan antara teknologi pengolahan daging standar Eropa dengan kebutuhan industri lokal di Indonesia."
+    },
+    "story": {
+      "established": "Didirikan",
+      "title": "Standar Baru dalam <br/> Teknologi Pangan",
+      "desc": "Meskipun baru didirikan pada tahun 2025, fondasi keahlian kami telah dibangun selama puluhan tahun. Dipimpin oleh tenaga ahli lulusan Jerman, kami membawa standar ketat \"German Butcher\" ke dalam setiap layanan kami.",
+      "cert_title": "Certified Master Butcher",
+      "cert_desc": "Kualifikasi tertinggi dalam pengolahan daging (Meisterbrief) sejak 2002.",
+      "edu_title": "German Educated",
+      "edu_desc": "Pendidikan formal teknisi & butcher di Jerman sejak 1998."
+    },
+    "team": {
+      "title": "Temui Pimpinan Kami",
+      "lars_role": "Direktur Teknis",
+      "lars_desc": "Master Butcher Bersertifikat Jerman & Ahli Teknis sejak 1998.",
+      "sugi_role": "Direktur",
+      "sugi_desc": "Memimpin operasional dan kemitraan strategis di seluruh Indonesia.",
+      "surya_role": "Perwakilan Bali",
+      "surya_desc": "Dukungan khusus untuk mitra kami di wilayah Bali."
+    },
+    "vision": {
+      "title": "Visi Kami",
+      "desc": "Menjadi mitra teknis terdepan di Indonesia yang dipercaya karena integritas, presisi Jerman, dan solusi inovatif dalam industri pengolahan pangan.",
+      "mission_title": "Misi Kami",
+      "mission_1": "Memberikan layanan teknis yang cepat & akurat.",
+      "mission_2": "Menyediakan sparepart & bahan baku berkualitas tinggi.",
+      "mission_3": "Mengedukasi industri lokal dengan standar higiene global."
+    }
+  },
+  "services_page": {
+    "hero": {
+      "subtitle": "Keahlian Eropa",
+      "title": "Solusi Andal untuk <br/> Industri Pangan",
+      "desc": "Kami menggabungkan keahlian Eropa dengan pengalaman industri lokal. Dari instalasi mesin, konsultasi \"Master Butcher\", hingga penyediaan casing kolagen berkualitas tinggi."
+    },
+    "detail": {
+      "item1": {
+        "title": "Layanan Teknis & Pelatihan",
+        "subtitle": "Instalasi, Commissioning & Maintenance",
+        "desc": "Dukungan teknis lengkap untuk mesin pengolahan daging, dari instalasi hingga operasi jangka panjang. Kami memastikan produksi Anda berjalan lancar, efisien, dan aman.",
+        "points": [
+          "Instalasi & Commissioning Profesional",
+          "Maintenance Preventif & Perbaikan (Repair)",
+          "Training Operator (Handling & Hygiene)",
+          "Troubleshooting Darurat & Spare Parts"
+        ]
+      },
+      "item2": {
+        "title": "Konsultasi Master Butcher",
+        "subtitle": "Resep, Efisiensi & Higiene",
+        "desc": "Optimalkan operasi Anda dengan panduan ahli dari German Certified Master Butcher (sejak 2002). Kami membantu meningkatkan produktivitas dan kualitas produk yang konsisten.",
+        "points": [
+          "Pengembangan Resep & Rasa (Texture/Flavor)",
+          "Efisiensi Produksi & Alur Proses",
+          "Prosedur Higiene & Keamanan Pangan (HACCP)",
+          "Optimasi Peralatan & Kalibrasi"
+        ]
+      },
+      "item3": {
+        "title": "Casing Berkualitas Tinggi",
+        "subtitle": "Untuk Produksi Sosis & Daging",
+        "desc": "Casing kolagen premium (Sapi) yang dirancang untuk produksi sosis modern. Memastikan performa pengisian yang konsisten, diameter seragam, dan 'gigitan' yang pas.",
+        "points": [
+          "Collagen Casings (Kaliber 13-50 mm)",
+          "Cocok untuk Sosis Masak, Segar & Kering",
+          "Elastisitas Tinggi & Ukuran Seragam",
+          "Suplai Bumbu & Premix Fungsional"
+        ]
+      }
+    },
+    "process": {
+      "title": "Cara Kami Bekerja",
+      "step1_title": "Konsultasi",
+      "step1_desc": "Diskusi praktis untuk mengidentifikasi kebutuhan produksi dan efisiensi.",
+      "step2_title": "Desain Solusi",
+      "step2_desc": "Merancang resep, pemilihan mesin, atau rencana perawatan yang tepat.",
+      "step3_title": "Implementasi",
+      "step3_desc": "Instalasi, commissioning, dan training operator secara langsung (Hands-on).",
+      "step4_title": "Dukungan",
+      "step4_desc": "Dukungan teknis berkelanjutan dan suplai spare parts original."
+    },
+    "brands": {
+      "title": "Merek Mesin yang Kami Dukung",
+      "subtitle": "Kami berpengalaman menangani instalasi & servis merek-merek terkemuka.",
+      "handtmann": "Sistem Pengisian, Portioning, dan Gantung",
+      "guenther": "Injektor dan Tumbler",
+      "kg": "Bowl Cutters, Mincer Grinders",
+      "kolbe": "Bandsaws, Mincer Grinders",
+      "mauting": "Chamber Pengasapan, Memasak, dan Pendinginan"
+    },
+    "cta": {
+      "title": "Siap Meningkatkan <br/> Produksi Anda?",
+      "desc": "Hubungi kami untuk jadwal kunjungan teknis, diskusi resep, atau permintaan sampel casing kolagen.",
+      "btn": "Mulai Konsultasi"
+    }
+  },
+  "gallery_page": {
+    "hero": {
+      "subtitle": "Pameran Portofolio",
+      "title": "PRESISI DALAM <br/> SETIAP INSTALASI",
+      "featured": "Proyek Unggulan"
+    },
+    "grid": {
+      "subtitle": "Rekam Jejak Kami",
+      "title": "Proyek Unggulan",
+      "desc": "Klik pada proyek di bawah untuk melihat dokumentasi detail instalasi dan pengerjaan teknis kami.",
+      "view_doc": "Lihat Dokumentasi",
+      "gallery_label": "Galeri Proyek",
+      "showing": "Menampilkan {{count}} foto dokumentasi teknis.",
+      "end_doc": "Akhir dari dokumentasi untuk {{title}}"
+    },
+    "spotlight": {
+      "subtitle": "Sorotan Proyek",
+      "title": "INSTALASI SMOKEHOUSE <br/> MAUTING",
+      "desc": "Sebuah pencapaian teknis dalam instalasi sistem pengasapan modern. Proyek ini melibatkan integrasi penuh sistem kontrol iklim dan pemrosesan otomatis untuk hasil produk yang konsisten.",
+      "point1": "Kalibrasi Sistem Penuh",
+      "point2": "Commissioning Standar Jerman"
+    },
+    "projects": {
+      "p1_title": "Instalasi Line 830 + 226",
+      "p1_cat": "Setup Line Lengkap",
+      "p1_desc": "Instalasi lengkap line produksi sosis kecepatan tinggi dengan sinkronisasi presisi antara mesin filler dan hanging line.",
+      
+      "p2_title": "Overhaul Mesin 612",
+      "p2_cat": "Pemeliharaan",
+      "p2_desc": "Peremajaan total mesin vacuum filler. Pembongkaran total, penggantian seal, dan kalibrasi ulang sesuai standar pabrik.",
+      
+      "p3_title": "Uji Coba Aplikasi Casing",
+      "p3_cat": "Dukungan R&D",
+      "p3_desc": "Uji coba aplikasi casing kolagen pada berbagai kondisi suhu dan kelembapan untuk menemukan formula produksi terbaik.",
+      
+      "p4_title": "Setup Mauting Chamber",
+      "p4_cat": "Instalasi Fasilitas",
+      "p4_desc": "Pemasangan dan kalibrasi sistem pengasapan industrial (Smokehouse) Mauting untuk hasil pengasapan yang merata."
+    }
+  },
+  "contact_page": {
+    "hero": {
+      "subtitle": "Hubungi Kami",
+      "title": "Mari Mulai <br/> Percakapan",
+      "desc": "Apakah Anda membutuhkan instalasi mesin, konsultasi resep, atau supply casing? Tim ahli kami siap membantu kebutuhan industri Anda."
+    },
+    "info": {
+      "office_title": "Kantor Pusat",
+      "office_desc": "Lippo Cikarang, Bekasi",
+      "office_sub": "Jawa Barat, Indonesia",
+      "call_title": "Hubungi Kami",
+      "call_sub": "Senin-Jumat dari 08:00 - 17:00",
+      "email_title": "Email Kami",
+      "email_sub": "Kami membalas dalam 24 jam",
+      "hours_title": "Jam Kerja",
+      "hours_desc": "Senin - Jumat",
+      "hours_sub": "08:00 - 17:00 WIB"
+    },
+    "form": {
+      "title": "Kirim Pesan",
+      "first_name": "Nama Depan",
+      "last_name": "Nama Belakang",
+      "email": "Alamat Email",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "placeholder_msg": "Ceritakan kebutuhan Anda...",
+      "btn_send": "Kirim Pesan",
+      "btn_sending": "Mengirim...",
+      "success_msg": "Pesan berhasil dikirim! Terima kasih telah menghubungi kami.",
+      "error_msg": "Gagal mengirim pesan. Mohon periksa koneksi internet Anda atau coba lagi nanti.",
+      "subjects": {
+        "general": "Pertanyaan Umum",
+        "install": "Instalasi Mesin",
+        "supply": "Supply Casing",
+        "consult": "Permintaan Konsultasi"
+      }
+    },
+    "map": {
+      "office_label": "Kantor Kami",
+      "address": "Kompleks Dago Villa, Jl. Gunung Patuha No 72,<br />Kel. Cibatu, Kec. Cikarang Selatan,<br />Lippo Cikarang - Bekasi, Jawa Barat 17550.",
+      "directions": "Dapatkan Petunjuk Arah"
+    }
+  }
+}

@@ -1,20 +1,23 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
-const steps = [
-  { num: "01", title: "Consultation", desc: "Diskusi praktis untuk mengidentifikasi kebutuhan produksi dan efisiensi." },
-  { num: "02", title: "Solution Design", desc: "Merancang resep, pemilihan mesin, atau rencana perawatan yang tepat." },
-  { num: "03", title: "Implementation", desc: "Instalasi, commissioning, dan training operator secara langsung (Hands-on)." },
-  { num: "04", title: "Support", desc: "Dukungan teknis berkelanjutan dan suplai spare parts original." }
-];
+import { useTranslation } from 'react-i18next';
 
 const ServicesProcess = () => {
+  const { t } = useTranslation();
+
+  const steps = [
+    { num: "01", title: t('services_page.process.step1_title'), desc: t('services_page.process.step1_desc') },
+    { num: "02", title: t('services_page.process.step2_title'), desc: t('services_page.process.step2_desc') },
+    { num: "03", title: t('services_page.process.step3_title'), desc: t('services_page.process.step3_desc') },
+    { num: "04", title: t('services_page.process.step4_title'), desc: t('services_page.process.step4_desc') }
+  ];
+
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6">
         
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900">How We Work</h2>
+          <h2 className="text-3xl font-bold text-gray-900">{t('services_page.process.title')}</h2>
           <div className="w-16 h-1 bg-blue-900 mx-auto mt-4 rounded"></div>
         </div>
 
@@ -42,4 +45,4 @@ const ServicesProcess = () => {
   );
 };
 
-export default ServicesProcess;
+export default ServicesProcess; 

@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 // Default gambar (bisa di-override lewat props jika ingin gambar beda per halaman)
 const defaultImages = [
-  "/images/sausage.jpg", "/images/casing.jpg", "/images/sausage.jpg",
-  "/images/casing.jpg", "/images/sausage.jpg", "/images/casing.jpg",
-  "/images/sausage.jpg", "/images/casing.jpg", "/images/sausage.jpg",
-  "/images/casing.jpg", "/images/sausage.jpg", "/images/casing.jpg",
+  "/images/sausage.jpg", "/images/casing1.jpg", "/images/sausage2.jpg",
+  "/images/casing.jpg", "/images/sausage3.jpg", "/images/casing2.jpg",
+  "/images/sausage2.jpg", "/images/casing3.jpg", "/images/sausage.jpg",
+  "/images/casing2.jpg", "/images/sausage.jpg", "/images/casing3.jpg",
 ];
 
 // Helper: Memecah array jadi kolom

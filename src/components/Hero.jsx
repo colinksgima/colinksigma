@@ -1,9 +1,10 @@
 import React from 'react';
-import { ArrowRight, CheckCircle } from 'lucide-react'; // Tambah icon Check
+import { ArrowRight, CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom'; // Import Link
+import { Link } from 'react-router-dom';
+import { useTranslation, Trans } from 'react-i18next'; // Import Hook
 
-// --- DATA GAMBAR BACKGROUND (Tetap sama) ---
+// --- DATA GAMBAR BACKGROUND ---
 const galleryImages = [
   "/images/sausage.jpg", "/images/casing.jpg", "/images/Lars.png",
   "/images/sausage.jpg", "/images/Sugi.png", "/images/casing.jpg",
@@ -20,6 +21,7 @@ const chunkArray = (array, numChunks) => {
 };
 
 const Hero = () => {
+  const { t } = useTranslation(); // Hook i18n
   const columns = chunkArray([...galleryImages, ...galleryImages], 4);
 
   return (
@@ -55,65 +57,66 @@ const Hero = () => {
       <div className="container relative mx-auto px-6 z-20 py-12">
         <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
           
-          {/* --- KOLOM KIRI: Informasi Detail --- */}
+          {/* --- KOLOM KIRI --- */}
           <div className="md:w-3/5 space-y-8">
             <div className="inline-flex items-center space-x-2 text-blue-900 font-bold tracking-widest uppercase text-xs border-b-2 border-orange-500 pb-1 w-fit">
-              <span>Since 2025</span>
+              <span>{t('home.hero.since')}</span>
             </div>
             
-            <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
-              European Expertise, <br/>
-              <span className="text-blue-900">Indonesian Heart.</span>
+            <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight whitespace-pre-line">
+              <Trans i18nKey="home.hero.title">
+                European Expertise, <br/><span className="text-blue-900">Indonesian Heart.</span>
+              </Trans>
             </h1>
             
             <p className="text-lg text-gray-700 leading-relaxed max-w-2xl">
-              PT. Colink Sigma Indonesia hadir sebagai mitra strategis industri pengolahan daging. Kami tidak hanya menjual produk, tetapi memberikan <strong>solusi menyeluruh</strong> untuk efisiensi dan kualitas produksi Anda.
+              <Trans i18nKey="home.hero.desc" />
             </p>
 
-            {/* Poin-Poin Informatif (Pengganti tombol Contact) */}
+            {/* Poin-Poin Informatif */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
               <div className="flex items-start gap-3">
                 <div className="bg-blue-100 p-2 rounded-full"><CheckCircle size={20} className="text-blue-900"/></div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Technical Services</h4>
-                  <p className="text-sm text-gray-600">Instalasi, Maintenance, & Training Mesin.</p>
+                  <h4 className="font-bold text-gray-900">{t('home.hero.tech_service')}</h4>
+                  <p className="text-sm text-gray-600">{t('home.hero.tech_desc')}</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="bg-blue-100 p-2 rounded-full"><CheckCircle size={20} className="text-blue-900"/></div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Master Consulting</h4>
-                  <p className="text-sm text-gray-600">Resep & Efisiensi dari Ahli Jerman.</p>
+                  <h4 className="font-bold text-gray-900">{t('home.hero.master_consult')}</h4>
+                  <p className="text-sm text-gray-600">{t('home.hero.master_desc')}</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="bg-blue-100 p-2 rounded-full"><CheckCircle size={20} className="text-blue-900"/></div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Premium Casings</h4>
-                  <p className="text-sm text-gray-600">Supply Casing Kolagen Berkualitas.</p>
+                  <h4 className="font-bold text-gray-900">{t('home.hero.premium_casing')}</h4>
+                  <p className="text-sm text-gray-600">{t('home.hero.premium_desc')}</p>
                 </div>
               </div>
             </div>
             
-            {/* Tombol Navigasi Halaman */}
+            {/* Tombol Navigasi */}
             <div className="flex flex-wrap gap-4 pt-2">
               <Link to="/about" className="inline-flex items-center justify-center px-8 py-3 text-base font-bold text-white bg-blue-900 rounded-lg hover:bg-blue-800 transition shadow-lg hover:shadow-xl">
-                Tentang Kami
+                {t('home.hero.btn_about')}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
               <Link to="/services" className="inline-flex items-center justify-center px-8 py-3 text-base font-bold text-blue-900 bg-white border-2 border-blue-900 rounded-lg hover:bg-blue-50 transition">
-                Lihat Layanan Lengkap
+                {t('home.hero.btn_services')}
               </Link>
             </div>
           </div>
 
-          {/* --- KOLOM KANAN: Visual Penegas --- */}
+          {/* --- KOLOM KANAN --- */}
           <div className="md:w-2/5 w-full hidden md:block">
              <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform rotate-3 hover:rotate-0 transition duration-500">
                 <img src="/images/sausage.jpg" alt="Quality Production" className="w-full h-auto object-cover"/>
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white font-bold text-lg">Solusi Terpercaya</p>
-                  <p className="text-gray-300 text-sm">Untuk Industri Pangan Modern</p>
+                  <p className="text-white font-bold text-lg">{t('home.hero.trusted_sol')}</p>
+                  <p className="text-gray-300 text-sm">{t('home.hero.trusted_sub')}</p>
                 </div>
              </div>
           </div>
