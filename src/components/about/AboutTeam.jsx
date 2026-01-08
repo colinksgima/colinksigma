@@ -28,7 +28,7 @@ const AboutTeam = () => {
       name: "NI NYOMAN SURYANINGSIH",
       role: t('about.team.surya_role'),
       desc: t('about.team.surya_desc'),
-      img: "images/surya.png",
+      img: "images/surya.jpeg",
       email: "suryacolink2025@gmail.com",
       phone: "+62 812-3761-3484"
     }

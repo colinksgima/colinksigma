@@ -1,13 +1,13 @@
 {
   "navbar": {
     "home": "Startseite",
-    "about": "Über Uns",
-    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "services": "Leistungen",
     "gallery": "Galerie",
     "contact": "Kontakt"
   },
   "footer": {
-    "desc": "Strategischer Partner der Fleischverarbeitungsindustrie. Wir bringen deutsche Ingenieurskunst mit responsivem und vertrauenswürdigem lokalem Service.",
+    "desc": "Strategischer Partner für die fleischverarbeitende Industrie. Wir bringen deutsche Ingenieurspräzision mit reaktionsschnellem und vertrauenswürdigem lokalem Service.",
     "expertise": "Unsere Expertise",
     "links": "Schnelllinks",
     "office": "Hauptsitz",
@@ -15,20 +15,20 @@
     "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
     "services_list": {
-      "install": "Maschineninstallation (Handtmann)",
-      "overhaul": "Generalüberholung & Reparatur",
-      "consult": "Beratung für Wurstrezepte",
-      "supply": "Lieferung von Kollagendärmen",
+      "install": "Maschineninstallation",
+      "overhaul": "Überholung & Reparatur",
+      "consult": "Wurstzepturberatung",
+      "supply": "Därme & Zutatenversorgung",
       "training": "Bedienerschulung"
     }
   },
   "stats": {
     "exp": "Jahre Erfahrung",
-    "exp_desc": "In Deutschland ausgebildet",
+    "exp_desc": "Deutsch ausgebildeter Metzger",
     "tech": "Jahre Technik",
-    "tech_desc": "Feldservice-Experte",
+    "tech_desc": "Außendienst-Experte",
     "cert": "Zertifiziert",
-    "cert_desc": "Metzgermeister Standard",
+    "cert_desc": "Metzgermeister-Standard",
     "brand": "Globale Marken",
     "brand_desc": "Vertrauenswürdiger Maschinensupport"
   },
@@ -36,31 +36,31 @@
     "hero": {
       "since": "Seit 2025",
       "title": "Europäische Expertise, <br/> Indonesisches Herz.",
-      "desc": "PT. Colink Sigma Indonesia ist Ihr strategischer Partner für die fleischverarbeitende Industrie. Wir verkaufen nicht nur Produkte, sondern bieten umfassende Lösungen für Ihre Produktionseffizienz und Qualität.",
-      "tech_service": "Technischer Dienst",
+      "desc": "PT. Colink Sigma Indonesia ist hier als strategischer Partner für die fleischverarbeitende Industrie. Wir verkaufen nicht nur Produkte, wir bieten umfassende Lösungen für Ihre Produktionseffizienz und Qualität.",
+      "tech_service": "Technische Dienste",
       "tech_desc": "Maschineninstallation, Wartung & Schulung.",
       "master_consult": "Meisterberatung",
       "master_desc": "Rezepte & Effizienz von deutschen Experten.",
       "premium_casing": "Premium-Därme",
-      "premium_desc": "Lieferung hochwertiger Kollagendärme.",
-      "btn_about": "Über Uns",
-      "btn_services": "Alle Dienstleistungen",
+      "premium_desc": "Versorgung mit hochwertigen Kollagendärmen.",
+      "btn_about": "Über uns",
+      "btn_services": "Alle Leistungen ansehen",
       "trusted_sol": "Vertrauenswürdige Lösung",
       "trusted_sub": "Für die moderne Lebensmittelindustrie"
     },
     "brands": {
-      "trusted": "Vertrauenswürdige Expertise Mit"
+      "trusted": "Vertraute Expertise mit"
     },
     "why_choose": {
-      "label": "Warum Uns Wählen",
+      "label": "Warum uns wählen",
       "title": "Europäische Präzision für die <br/> indonesische Industrie",
-      "desc": "Wir verstehen, dass in der fleischverarbeitenden Industrie Präzision alles ist. Mit jahrzehntelanger Erfahrung in Deutschland und Indonesien bringen wir höchste Standards in Ihre Fabrik.",
+      "desc": "Wir verstehen, dass in der fleischverarbeitenden Industrie Präzision alles ist. Mit jahrzehntelanger Erfahrung in Deutschland und Indonesien bringen wir die höchsten Standards in Ihre Fabrik.",
       "german_cert": "Deutsch Zertifiziert",
       "german_desc": "Original deutsche Metzgermeister-Qualitätsstandards seit 2002.",
       "reliable": "Zuverlässiger Support",
       "reliable_desc": "Reaktionsschneller technischer Support zur Minimierung von Ausfallzeiten.",
       "end_to_end": "End-to-End-Lösung",
-      "end_to_end_desc": "Komplettlösungen von Maschinen, Installation bis hin zu Produktrezepturen."
+      "end_to_end_desc": "Komplettlösungen von Maschinen, Installation bis zu Produktrezepten."
     },
     "services": {
       "title": "Unsere Kernkompetenzen",
@@ -69,12 +69,12 @@
       "butcher_title": "Metzgerberatung",
       "butcher_desc": "Rezeptoptimierung & Produktionseffizienz.",
       "supply_title": "Premium-Versorgung",
-      "supply_desc": "Hochwertige Kollagendärme & Zutaten.",
-      "learn_more": "Mehr Erfahren"
+      "supply_desc": "Qualitätskollagendärme & Zutaten.",
+      "learn_more": "Mehr erfahren"
     },
     "cta": {
       "title": "Bereit, Ihre Produktion <br/> zu verbessern?",
-      "desc": "Besprechen Sie Ihre Maschinen- und Darmbedürfnisse mit unseren Experten für maximale Ergebnisse.",
+      "desc": "Besprechen Sie Ihren Maschinen- und Darmbedarf mit unseren Experten für maximale Ergebnisse.",
       "btn": "Kontaktieren Sie uns"
     }
   },
@@ -90,16 +90,16 @@
       "desc": "Obwohl erst 2025 gegründet, wurde unser Fundament an Fachwissen über Jahrzehnte aufgebaut. Geleitet von in Deutschland ausgebildeten Experten bringen wir strenge \"Deutsche Metzger\"-Standards in jeden unserer Dienste.",
       "cert_title": "Zertifizierter Metzgermeister",
       "cert_desc": "Höchste Qualifikation in der Fleischverarbeitung (Meisterbrief) seit 2002.",
-      "edu_title": "In Deutschland ausgebildet",
-      "edu_desc": "Formale Ausbildung zum Techniker & Metzger in Deutschland seit 1998."
+      "edu_title": "Deutsch Ausgebildet",
+      "edu_desc": "Metzgerausbildung in Deutschland seit 1998 & Anwendungs-/Servicetechniker seit 2010."
     },
     "team": {
       "title": "Lernen Sie die Führung kennen",
-      "lars_role": "Technischer Direktor",
-      "lars_desc": "Zertifizierter deutscher Metzgermeister & technischer Experte seit 1998.",
-      "sugi_role": "Direktorin",
+      "lars_role": "Metzgermeister & Anwendungs-/Servicetechniker",
+      "lars_desc": "Zertifizierter deutscher Metzgermeister seit 2002 & Servicetechniker seit 2010.",
+      "sugi_role": "Geschäftsführerin",
       "sugi_desc": "Leitung von Betrieb und strategischen Partnerschaften in ganz Indonesien.",
-      "surya_role": "Bali-Vertreterin",
+      "surya_role": "Stellvertretende Geschäftsführerin",
       "surya_desc": "Dedizierte Unterstützung für unsere Partner in der Region Bali."
     },
     "vision": {
@@ -107,7 +107,7 @@
       "desc": "Der führende technische Partner in Indonesien zu sein, dem man wegen Integrität, deutscher Präzision und innovativen Lösungen in der lebensmittelverarbeitenden Industrie vertraut.",
       "mission_title": "Unsere Mission",
       "mission_1": "Bereitstellung schneller & präziser technischer Dienste.",
-      "mission_2": "Lieferung hochwertiger Ersatzteile & Rohstoffe.",
+      "mission_2": "Lieferung hochwertiger Produkte.",
       "mission_3": "Aufklärung der lokalen Industrie über globale Hygienestandards."
     }
   },
@@ -115,40 +115,39 @@
     "hero": {
       "subtitle": "Europäisches Know-How",
       "title": "Zuverlässige Lösungen für <br/> die Lebensmittelindustrie",
-      "desc": "Wir kombinieren europäische Expertise mit lokaler Industrieerfahrung. Von der Maschineninstallation über \"Metzgermeister\"-Beratung bis hin zur Lieferung hochwertiger Kollagendärme."
+      "desc": "Wir kombinieren europäische Expertise mit lokaler Industrieerfahrung. Von Maschineninstallation, \"Metzgermeister\"-Beratung bis hin zur Lieferung hochwertiger Produkte."
     },
     "detail": {
       "item1": {
         "title": "Technischer Service & Schulung",
         "subtitle": "Installation, Inbetriebnahme & Wartung",
-        "desc": "Kompletter technischer Support für Fleischverarbeitungsmaschinen. Wir sorgen dafür, dass Ihre Produktion reibungslos, effizient und sicher läuft.",
+        "desc": "Kompletter technischer Support für Fleischverarbeitungsmaschinen, von Installation bis zu operativen Schulungen, Hands-on-Service, damit Ihre Produktion reibungslos, effizient und sicher läuft.",
         "points": [
           "Professionelle Installation & Inbetriebnahme",
           "Vorbeugende Wartung & Reparatur",
           "Bedienerschulung (Handhabung & Hygiene)",
-          "Notfall-Fehlerbehebung & Ersatzteile"
+          "Notfall-Fehlerbehebung"
         ]
       },
       "item2": {
         "title": "Metzgermeister-Beratung",
         "subtitle": "Rezeptur, Effizienz & Hygiene",
-        "desc": "Optimieren Sie Ihren Betrieb mit fachkundiger Anleitung eines deutschen Metzgermeisters (seit 2002). Wir helfen, Produktivität und Produktqualität zu steigern.",
+        "desc": "Optimieren Sie Ihren Betrieb mit fachkundiger Anleitung eines deutschen Metzgermeisters (seit 2002). Wir helfen, Produktivität und konsistente Produktqualität zu steigern.",
         "points": [
           "Rezept- & Geschmacksentwicklung (Textur/Aroma)",
           "Produktionseffizienz & Prozessablauf",
           "Hygieneverfahren & Lebensmittelsicherheit (HACCP)",
-          "Geräteoptimierung & Kalibrierung"
+          "Anlagenbediener- & Anwendungsschulung"
         ]
       },
       "item3": {
-        "title": "Hochwertige Därme",
+        "title": "Hochwertige Därme & Zutaten",
         "subtitle": "Für Wurst- & Fleischproduktion",
-        "desc": "Premium-Kollagendärme (Rind), entwickelt für die moderne Wurstproduktion. Gewährleistet konsistente Füllleistung, einheitlichen Durchmesser und den perfekten 'Biss'.",
+        "desc": "Premium-Därme (Halal-zertifiziert), entwickelt für die moderne Wurstproduktion.",
         "points": [
-          "Kollagendärme (Kaliber 13-50 mm)",
+          "Kollagen, Cellulose & Kunststoff",
           "Geeignet für Brüh-, Roh- & Trockenwurst",
-          "Hohe Elastizität & einheitliche Größe",
-          "Lieferung von funktionellen Gewürzen & Vormischungen"
+          "Funktionelle Gewürze & Vormischungen"
         ]
       }
     },
@@ -157,11 +156,11 @@
       "step1_title": "Beratung",
       "step1_desc": "Praktische Diskussion zur Ermittlung von Produktionsbedarf und Effizienz.",
       "step2_title": "Lösungsdesign",
-      "step2_desc": "Entwurf von Rezepten, Maschinenauswahl oder Wartungsplänen.",
+      "step2_desc": "Entwurf von Rezepten, Maschinenauswahl oder geeigneten Wartungsplänen.",
       "step3_title": "Implementierung",
-      "step3_desc": "Installation, Inbetriebnahme und praktische Bedienerschulung.",
+      "step3_desc": "Installation, Inbetriebnahme, Anwendungs-/Bedienerschulung.",
       "step4_title": "Support",
-      "step4_desc": "Laufender technischer Support und Original-Ersatzteilversorgung."
+      "step4_desc": "Laufender technischer Support & Hands-on-Service."
     },
     "brands": {
       "title": "Maschinenmarken, die wir unterstützen",
@@ -196,26 +195,23 @@
     "spotlight": {
       "subtitle": "Projekt-Highlight",
       "title": "MAUTING RAUCHKAMMER <br/> INSTALLATION",
-      "desc": "Eine technische Errungenschaft bei der Installation moderner Rauchkammersysteme. Dieses Projekt umfasste die vollständige Integration von Klimakontrollsystemen und automatisierter Verarbeitung für konsistente Produktergebnisse.",
+      "desc": "Eine technische Errungenschaft bei der Installation moderner Rauch-/Kochkammern & Intensivkühlsysteme. Dieses Projekt umfasste die vollständige Integration von Steuerungssystemen und automatisierter Verarbeitung für konsistente Produktergebnisse.",
       "point1": "Vollständige Systemkalibrierung",
-      "point2": "Inbetriebnahme nach deutschem Standard"
+      "point2": "Deutscher Standard für Installation & Inbetriebnahme"
     },
     "projects": {
-      "p1_title": "Linie 830 + 226 Installation",
-      "p1_cat": "Komplette Linien Einrichtung",
-      "p1_desc": "Komplette Installation einer Hochgeschwindigkeits-Wurstproduktionslinie mit präziser Synchronisation zwischen Füller und Aufhängelinie.",
-      
+      "p1_title": "Installation Linie VF 830 + PVLH 226",
+      "p1_cat": "Komplette Linien-Einrichtung",
+      "p1_desc": "Komplette Installation einer Wurstproduktionslinie: Vakuumfüller und Aufhängelinie.",
       "p2_title": "612 Maschinenüberholung",
       "p2_cat": "Wartung",
       "p2_desc": "Vollständige Erneuerung der Vakuumfüllmaschine. Komplette Demontage, Dichtungsaustausch und Neukalibrierung nach Werksstandards.",
-      
-      "p3_title": "Darm-Anwendungsversuch",
+      "p3_title": "Darm-Versuch",
       "p3_cat": "F&E Unterstützung",
-      "p3_desc": "Anwendungsversuche mit Kollagendärmen unter verschiedenen Temperatur- und Feuchtigkeitsbedingungen, um die beste Produktionsformel zu finden.",
-      
-      "p4_title": "Mauting Kammer Einrichtung",
+      "p3_desc": "Anwendungsversuche mit Kollagendärmen: Füll-, Rauch-, Kochleistung und zarter Biss.",
+      "p4_title": "Einrichtung Mauting Rauch- & Kochkammern, Intensivkühlkammern, Installation und Inbetriebnahme UKM 2002 D & ZKM 2002",
       "p4_cat": "Anlageninstallation",
-      "p4_desc": "Installation und Kalibrierung des industriellen Mauting-Rauchkammersystems für gleichmäßige Rauchergebnisse."
+      "p4_desc": "Produktkonsistenz, Produktionseffizienz & Produktionsfluss."
     }
   },
   "contact_page": {
@@ -260,5 +256,45 @@
       "address": "Dago Villa Komplex, Jl. Gunung Patuha Nr. 72,<br />Cibatu, Süd-Cikarang,<br />Lippo Cikarang - Bekasi, West-Java 17550.",
       "directions": "Wegbeschreibung erhalten"
     }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "last_updated": "Zuletzt aktualisiert: Januar 2026",
+    "intro_title": "1. Einführung",
+    "intro_desc": "PT. Colink Sigma Indonesia (\"wir\", \"unser\" oder \"uns\") verpflichtet sich zum Schutz Ihrer Privatsphäre. Diese Datenschutzerklärung erläutert, wie wir Ihre Informationen sammeln, verwenden und schützen, wenn Sie unsere Website besuchen oder unsere Dienstleistungen in Anspruch nehmen (Maschineninstallation, Metzgerberatung und Lieferungen).",
+    "collect_title": "2. Informationen, die wir sammeln",
+    "collect_desc": "Wir können folgende Arten von Informationen sammeln:",
+    "collect_1": "Persönliche Identifikationsdaten: Name, E-Mail-Adresse, Telefonnummer und Firmenname, die freiwillig über unsere \"Kontakt\"-Formulare bereitgestellt werden.",
+    "collect_2": "Geschäftsinformationen: Details zu Ihren Produktionsbedürfnissen, Maschinentypen oder Beratungsanforderungen.",
+    "collect_3": "Technische Daten: IP-Adresse, Browsertyp und Nutzungsdaten, die automatisch über Cookies gesammelt werden, um die Website-Leistung zu verbessern.",
+    "use_title": "3. Wie wir Ihre Informationen verwenden",
+    "use_desc": "Wir verwenden die gesammelten Daten für folgende Zwecke:",
+    "use_1": "Um auf Ihre Anfragen zu technischen Dienstleistungen oder Produktlieferungen zu antworten.",
+    "use_2": "Um Fabrikbesuche, Audits oder Maschineninstallationen zu planen.",
+    "use_3": "Um unsere Website-Funktionalität und Benutzererfahrung zu verbessern.",
+    "use_4": "Um administrative Informationen zu senden, wie z. B. Aktualisierungen unserer Bedingungen oder Richtlinien.",
+    "protection_title": "4. Datenschutz",
+    "protection_desc": "Wir implementieren strenge Sicherheitsmaßnahmen, um die Sicherheit Ihrer persönlichen Informationen zu gewährleisten. Als Unternehmen, das nach hohen professionellen Standards (\"Deutsche Präzision\") arbeitet, behandeln wir Ihre Geschäftsgeheimnisse und Rezepte absolut vertraulich.",
+    "disclosure_title": "5. Weitergabe an Dritte",
+    "disclosure_desc": "Wir verkaufen, handeln oder übertragen Ihre persönlich identifizierbaren Informationen nicht an Außenstehende. Dies schließt vertrauenswürdige Dritte aus, die uns beim Betrieb unserer Website oder bei der Erbringung von Dienstleistungen für Sie unterstützen (z. B. Maschinenhersteller wie Handtmann/Mauting für technische Supportzwecke), solange diese Parteien zustimmen, diese Informationen vertraulich zu behandeln.",
+    "contact_title": "6. Kontaktieren Sie uns",
+    "contact_desc": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, können Sie uns unter folgender Adresse kontaktieren:"
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "last_updated": "Zuletzt aktualisiert: Januar 2026",
+    "agreement_title": "1. Zustimmung zu den Bedingungen",
+    "agreement_desc": "Durch den Zugriff auf unsere Website und die Nutzung unserer Dienste erklären Sie sich mit diesen Allgemeinen Geschäftsbedingungen einverstanden. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, dürfen Sie nicht auf den Dienst zugreifen.",
+    "ip_title": "2. Geistiges Eigentum",
+    "ip_desc": "Der Inhalt dieser Website, einschließlich, aber nicht beschränkt auf Text, Grafiken, Logos und **Projektgaleriebilder** (Installationsdokumentation, Maschinenfotos), ist Eigentum von PT. Colink Sigma Indonesia und ist urheberrechtlich geschützt. Sie dürfen unsere Projektfotos ohne ausdrückliche schriftliche Genehmigung nicht reproduzieren oder verwenden.",
+    "disclaimer_title": "3. Haftungsausschluss für Dienstleistungen",
+    "disclaimer_1": "Technische Genauigkeit: Während wir uns um \"Deutsche Präzision\" bemühen, dienen die auf dieser Website bereitgestellten technischen Ratschläge nur zur allgemeinen Information. Spezifische technische Lösungen erfordern eine direkte Beratung und Standortbewertung.",
+    "disclaimer_2": "Maschinenmarken: Verweise auf Marken Dritter (z. B. Handtmann, Mauting, K+G Wetter) dienen beschreibenden Zwecken hinsichtlich unserer Servicefähigkeiten. Wir sind ein unabhängiger technischer Partner.",
+    "liability_title": "4. Haftungsbeschränkung",
+    "liability_desc": "PT. Colink Sigma Indonesia haftet nicht für indirekte, zufällige oder Folgeschäden, die sich aus der Nutzung unserer Website oder dem Vertrauen auf hier bereitgestellte Informationen ergeben.",
+    "law_title": "5. Geltendes Recht",
+    "law_desc": "Diese Bedingungen unterliegen den Gesetzen der Republik Indonesien und werden in Übereinstimmung mit diesen ausgelegt. Alle Streitigkeiten im Zusammenhang mit diesen Bedingungen unterliegen der ausschließlichen Zuständigkeit der Gerichte von Indonesien.",
+    "changes_title": "6. Änderungen der Bedingungen",
+    "changes_desc": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Wir werden Benutzer über Änderungen informieren, indem wir das Datum \"Zuletzt aktualisiert\" dieser Allgemeinen Geschäftsbedingungen aktualisieren."
   }
 }

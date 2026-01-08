@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useMotionValue, useTransform, animate, useInView } from 'framer-motion';
+import { useTranslation } from 'react-i18next'; // 1. Import Hook
 
 // --- KOMPONEN KECIL UNTUK ANIMASI ANGKA ---
 const Counter = ({ value }) => {
@@ -31,16 +32,34 @@ const Counter = ({ value }) => {
   );
 };
 
-// --- DATA ---
-const stats = [
-  { value: "27+", label: "Years Experience", desc: "German Educated Butcher" },
-  { value: "15+", label: "Years Technical", desc: "Field Service Expert" },
-  { value: "100%", label: "Certified", desc: "Master Butcher Standard" },
-  { value: "5+", label: "Global Brands", desc: "Trusted Machine Support" },
-];
-
 // --- KOMPONEN UTAMA ---
 const HomeStats = () => {
+  const { t } = useTranslation(); // 2. Inisialisasi Hook
+
+  // 3. Pindahkan data ke dalam komponen agar bisa akses t()
+  const stats = [
+    { 
+      value: "27+", 
+      label: t('stats.exp'), 
+      desc: t('stats.exp_desc') 
+    },
+    { 
+      value: "15+", 
+      label: t('stats.tech'), 
+      desc: t('stats.tech_desc') 
+    },
+    { 
+      value: "100%", 
+      label: t('stats.cert'), 
+      desc: t('stats.cert_desc') 
+    },
+    { 
+      value: "5+", 
+      label: t('stats.brand'), 
+      desc: t('stats.brand_desc') 
+    },
+  ];
+
   return (
     <section className="py-12 bg-blue-900 text-white relative overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">

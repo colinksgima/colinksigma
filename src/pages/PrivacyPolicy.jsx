@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation, Trans } from 'react-i18next'; // Import Hook
 
 const PrivacyPolicy = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="pt-28 pb-20 bg-white min-h-screen">
       <div className="container mx-auto px-6 max-w-4xl">
@@ -11,63 +14,55 @@ const PrivacyPolicy = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h1 className="text-4xl font-extrabold text-blue-900 mb-2">Privacy Policy</h1>
-          <p className="text-gray-500 mb-10">Last Updated: January 2026</p>
+          <h1 className="text-4xl font-extrabold text-blue-900 mb-2">{t('privacy.title')}</h1>
+          <p className="text-gray-500 mb-10">{t('privacy.last_updated')}</p>
 
           <div className="space-y-8 text-gray-700 leading-relaxed">
             
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3">1. Introduction</h2>
-              <p>
-                PT. Colink Sigma Indonesia ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website or engage with our services (Machine Installation, Butcher Consulting, and Supplies).
-              </p>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">{t('privacy.intro_title')}</h2>
+              <p>{t('privacy.intro_desc')}</p>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3">2. Information We Collect</h2>
-              <p className="mb-2">We may collect the following types of information:</p>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">{t('privacy.collect_title')}</h2>
+              <p className="mb-2">{t('privacy.collect_desc')}</p>
               <ul className="list-disc pl-5 space-y-2">
-                <li><strong>Personal Identification Information:</strong> Name, email address, phone number, and company name provided voluntarily through our "Contact Us" forms.</li>
-                <li><strong>Business Information:</strong> Details regarding your production needs, machinery types, or consultation requirements.</li>
-                <li><strong>Technical Data:</strong> IP address, browser type, and usage data collected automatically via cookies to improve website performance.</li>
+                <li><Trans i18nKey="privacy.collect_1"><strong>Personal Identification Information:</strong> Name, email address...</Trans></li>
+                <li><Trans i18nKey="privacy.collect_2"><strong>Business Information:</strong> Details regarding...</Trans></li>
+                <li><Trans i18nKey="privacy.collect_3"><strong>Technical Data:</strong> IP address...</Trans></li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3">3. How We Use Your Information</h2>
-              <p>We use the collected data for the following purposes:</p>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">{t('privacy.use_title')}</h2>
+              <p>{t('privacy.use_desc')}</p>
               <ul className="list-disc pl-5 space-y-2 mt-2">
-                <li>To respond to your inquiries regarding technical services or product supplies.</li>
-                <li>To schedule factory visits, audits, or machine installations.</li>
-                <li>To improve our website functionality and user experience.</li>
-                <li>To send administrative information, such as updates to our terms or policies.</li>
+                <li>{t('privacy.use_1')}</li>
+                <li>{t('privacy.use_2')}</li>
+                <li>{t('privacy.use_3')}</li>
+                <li>{t('privacy.use_4')}</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3">4. Data Protection</h2>
-              <p>
-                We implement strict security measures to maintain the safety of your personal information. As a company operating with high professional standards ("German Precision"), we treat your business secrets and recipes with absolute confidentiality.
-              </p>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">{t('privacy.protection_title')}</h2>
+              <p>{t('privacy.protection_desc')}</p>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3">5. Third-Party Disclosure</h2>
-              <p>
-                We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties. This does not include trusted third parties who assist us in operating our website or servicing you (e.g., machine manufacturers like Handtmann/Mauting for technical support purposes), so long as those parties agree to keep this information confidential.
-              </p>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">{t('privacy.disclosure_title')}</h2>
+              <p>{t('privacy.disclosure_desc')}</p>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3">6. Contact Us</h2>
-              <p>
-                If you have any questions regarding this privacy policy, you may contact us at:
-              </p>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">{t('privacy.contact_title')}</h2>
+              <p>{t('privacy.contact_desc')}</p>
               <div className="mt-4 bg-gray-50 p-6 rounded-xl border border-gray-100">
                 <p className="font-bold text-blue-900">PT. Colink Sigma Indonesia</p>
                 <p>Cikarang, Bekasi, Jawa Barat, Indonesia</p>
-                <p>Email: lacolink2025@gmail.com</p>
-                <p>Phone: +62 853 1101 2421</p>
+                <p>Email: sugicolink@gmail.com</p>
+                <p>Phone: +62 853-1382-7131</p>
               </div>
             </section>
 

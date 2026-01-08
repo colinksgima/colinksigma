@@ -15,10 +15,10 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "services_list": {
-      "install": "Machine Installation (Handtmann)",
+      "install": "Machine Installation",
       "overhaul": "Overhaul & Repair",
       "consult": "Sausage Recipe Consultation",
-      "supply": "Collagen Casing Supply",
+      "supply": "Casings & Ingredients Supply",
       "training": "Operator Training"
     }
   },
@@ -91,15 +91,15 @@
       "cert_title": "Certified Master Butcher",
       "cert_desc": "Highest qualification in meat processing (Meisterbrief) since 2002.",
       "edu_title": "German Educated",
-      "edu_desc": "Formal technician & butcher education in Germany since 1998."
+      "edu_desc": "Butcher education in Germany since 1998 & Application / Service field technician since 2010."
     },
     "team": {
       "title": "Meet The Leadership",
-      "lars_role": "Technical Director",
-      "lars_desc": "German Certified Master Butcher & Technical Expert since 1998.",
-      "sugi_role": "Director",
+      "lars_role": "Master Butcher & Application / Service Technician",
+      "lars_desc": "German Certified Master Butcher since 2002 & Service Technician since 2010.",
+      "sugi_role": "Managing Director",
       "sugi_desc": "Leading operations and strategic partnerships across Indonesia.",
-      "surya_role": "Bali Representative",
+      "surya_role": "Vice Managing Director",
       "surya_desc": "Dedicated support for our partners in the Bali region."
     },
     "vision": {
@@ -107,7 +107,7 @@
       "desc": "To be the leading technical partner in Indonesia trusted for integrity, German precision, and innovative solutions in the food processing industry.",
       "mission_title": "Our Mission",
       "mission_1": "Provide fast & accurate technical services.",
-      "mission_2": "Supply high-quality spare parts & raw materials.",
+      "mission_2": "Supply high-quality products.",
       "mission_3": "Educate local industry with global hygiene standards."
     }
   },
@@ -115,18 +115,18 @@
     "hero": {
       "subtitle": "European Know-How",
       "title": "Reliable Solutions for <br/> The Food Industry",
-      "desc": "We combine European expertise with local industry experience. From machine installation, \"Master Butcher\" consulting, to high-quality collagen casing supply."
+      "desc": "We combine European expertise with local industry experience. From machine installation, \"Master Butcher\" consulting, to high-quality product supply."
     },
     "detail": {
       "item1": {
         "title": "Technical Services & Training",
         "subtitle": "Installation, Commissioning & Maintenance",
-        "desc": "Complete technical support for meat processing machines, from installation to long-term operation. We ensure your production runs smoothly, efficiently, and safely.",
+        "desc": "Complete technical support for meat processing machines, from installation to operational training, hands on service, so that your production runs smoothly, efficiently, and safely.",
         "points": [
           "Professional Installation & Commissioning",
           "Preventive Maintenance & Repair",
           "Operator Training (Handling & Hygiene)",
-          "Emergency Troubleshooting & Spare Parts"
+          "Emergency Troubleshooting"
         ]
       },
       "item2": {
@@ -137,17 +137,16 @@
           "Recipe & Taste Development (Texture/Flavor)",
           "Production Efficiency & Process Flow",
           "Hygiene Procedures & Food Safety (HACCP)",
-          "Equipment Optimization & Calibration"
+          "Equipment Operator & Application training"
         ]
       },
       "item3": {
-        "title": "High-Quality Casings",
+        "title": "High-Quality Casings & Ingredients",
         "subtitle": "For Sausage & Meat Production",
-        "desc": "Premium collagen casings (Beef) designed for modern sausage production. Ensuring consistent filling performance, uniform diameter, and the perfect 'bite'.",
+        "desc": "Premium casings (Hal-Hal) certified, designed for modern sausage production. ",
         "points": [
-          "Collagen Casings (Caliber 13-50 mm)",
-          "Suitable for Cooked, Fresh & Dry Sausages",
-          "High Elasticity & Uniform Size",
+          "Collagen, Cellulose & Plastic",
+          "Suitable for Cooked, Dry & Raw Sausages",
           "Functional Spices & Premix Supply"
         ]
       }
@@ -159,9 +158,9 @@
       "step2_title": "Solution Design",
       "step2_desc": "Designing recipes, machine selection, or appropriate maintenance plans.",
       "step3_title": "Implementation",
-      "step3_desc": "Installation, commissioning, and hands-on operator training.",
+      "step3_desc": "Installation, commissioning, application / operator training.",
       "step4_title": "Support",
-      "step4_desc": "Ongoing technical support and original spare parts supply."
+      "step4_desc": "Ongoing technical support & hands on service."
     },
     "brands": {
       "title": "Machine Brands We Support",
@@ -196,26 +195,26 @@
     "spotlight": {
       "subtitle": "Project Spotlight",
       "title": "MAUTING SMOKEHOUSE <br/> INSTALLATION",
-      "desc": "A technical achievement in modern smokehouse system installation. This project involved full integration of climate control systems and automated processing for consistent product results.",
+      "desc": "A technical achievement in modern smoke/cooking chambers & Intensive chilling system installation. This project involved full integration of control systems and automated processing for consistent product results.",
       "point1": "Full System Calibration",
-      "point2": "German Standard Commissioning"
+      "point2": "German Standard of Installation & Commissioning"
     },
     "projects": {
-      "p1_title": "Line 830 + 226 Installation",
+      "p1_title": "Line VF 830 + PVLH 226 Installation",
       "p1_cat": "Full Line Setup",
-      "p1_desc": "Complete high-speed sausage production line installation with precise synchronization between filler and hanging line.",
+      "p1_desc": "Complete sausage production line installation of a Vacuum filler and hanging line.",
       
       "p2_title": "612 Machine Overhaul",
       "p2_cat": "Maintenance",
       "p2_desc": "Total rejuvenation of vacuum filler machine. Complete disassembly, seal replacement, and recalibration to factory standards.",
       
-      "p3_title": "Casing Application Trial",
+      "p3_title": "Casing Trial",
       "p3_cat": "R&D Support",
-      "p3_desc": "Collagen casing application trials under various temperature and humidity conditions to find the best production formula.",
+      "p3_desc": "Collagen casing application trials of Stuffing, Smoking & Cooking performance and tender bite.",
       
-      "p4_title": "Mauting Chamber Setup",
+      "p4_title": "Mauting Smoking & Cooking Chambers, Intensive Chilling Chambers Setup, Installation and Commissioning UKM 2002 D & ZKM 2002",
       "p4_cat": "Facility Installation",
-      "p4_desc": "Installation and calibration of industrial Mauting smokehouse system for uniform smoking results."
+      "p4_desc": "Product Consistency, Production Efficiency & Production Flow."
     }
   },
   "contact_page": {
@@ -260,5 +259,45 @@
       "address": "Dago Villa Complex, Jl. Gunung Patuha No 72,<br />Cibatu, South Cikarang,<br />Lippo Cikarang - Bekasi, West Java 17550.",
       "directions": "Get Directions"
     }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last Updated: January 2026",
+    "intro_title": "1. Introduction",
+    "intro_desc": "PT. Colink Sigma Indonesia (\"we,\" \"our,\" or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website or engage with our services (Machine Installation, Butcher Consulting, and Supplies).",
+    "collect_title": "2. Information We Collect",
+    "collect_desc": "We may collect the following types of information:",
+    "collect_1": "Personal Identification Information: Name, email address, phone number, and company name provided voluntarily through our \"Contact Us\" forms.",
+    "collect_2": "Business Information: Details regarding your production needs, machinery types, or consultation requirements.",
+    "collect_3": "Technical Data: IP address, browser type, and usage data collected automatically via cookies to improve website performance.",
+    "use_title": "3. How We Use Your Information",
+    "use_desc": "We use the collected data for the following purposes:",
+    "use_1": "To respond to your inquiries regarding technical services or product supplies.",
+    "use_2": "To schedule factory visits, audits, or machine installations.",
+    "use_3": "To improve our website functionality and user experience.",
+    "use_4": "To send administrative information, such as updates to our terms or policies.",
+    "protection_title": "4. Data Protection",
+    "protection_desc": "We implement strict security measures to maintain the safety of your personal information. As a company operating with high professional standards (\"German Precision\"), we treat your business secrets and recipes with absolute confidentiality.",
+    "disclosure_title": "5. Third-Party Disclosure",
+    "disclosure_desc": "We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties. This does not include trusted third parties who assist us in operating our website or servicing you (e.g., machine manufacturers like Handtmann/Mauting for technical support purposes), so long as those parties agree to keep this information confidential.",
+    "contact_title": "6. Contact Us",
+    "contact_desc": "If you have any questions regarding this privacy policy, you may contact us at:"
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "last_updated": "Last Updated: January 2026",
+    "agreement_title": "1. Agreement to Terms",
+    "agreement_desc": "By accessing our website and using our services, you agree to be bound by these Terms and Conditions. If you disagree with any part of these terms, you may not access the service.",
+    "ip_title": "2. Intellectual Property",
+    "ip_desc": "The content on this website, including but not limited to text, graphics, logos, and **project gallery images** (Installation documentation, machine photos), is the property of PT. Colink Sigma Indonesia and is protected by copyright laws. You may not reproduce or use our project photos without explicit written permission.",
+    "disclaimer_title": "3. Service Disclaimer",
+    "disclaimer_1": "Technical Accuracy: While we strive for \"German Precision,\" technical advice provided on this website is for general information. Specific technical solutions require a direct consultation and site assessment.",
+    "disclaimer_2": "Machine Brands: References to third-party brands (e.g., Handtmann, Mauting, K+G Wetter) are for descriptive purposes regarding our service capabilities. We are an independent technical partner.",
+    "liability_title": "4. Limitation of Liability",
+    "liability_desc": "PT. Colink Sigma Indonesia shall not be liable for any indirect, incidental, or consequential damages arising from the use of our website or reliance on any information provided herein.",
+    "law_title": "5. Governing Law",
+    "law_desc": "These terms shall be governed and construed in accordance with the laws of the Republic of Indonesia. Any disputes relating to these terms will be subject to the exclusive jurisdiction of the courts of Indonesia.",
+    "changes_title": "6. Changes to Terms",
+    "changes_desc": "We reserve the right to modify these terms at any time. We will notify users of any changes by updating the \"Last Updated\" date of these Terms and Conditions."
   }
 }
