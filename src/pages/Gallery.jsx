@@ -1,21 +1,24 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 import GalleryHero from '../components/gallery/GalleryHero';
 import GallerySpotlight from '../components/gallery/GallerySpotlight';
 import GalleryGrid from '../components/gallery/GalleryGrid';
 
 const Gallery = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="overflow-hidden">
+      {/* SEO CONFIG */}
+      <Helmet>
+        <title>{t('navbar.gallery')} - PT. Colink Sigma Indonesia</title>
+        <meta name="description" content={t('gallery_page.grid.desc')} />
+      </Helmet>
       
-      {/* 1. Hero (Arc Images) */}
       <GalleryHero />
-
-      {/* 2. Spotlight (Dark Section) */}
       <GallerySpotlight />
-
-      {/* 3. Grid Foto (Filterable) */}
       <GalleryGrid />
-
     </div>
   );
 };

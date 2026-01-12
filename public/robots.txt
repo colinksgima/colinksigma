@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://colinksigma.xo.je/sitemap.xml

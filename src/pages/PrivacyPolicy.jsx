@@ -1,14 +1,20 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useTranslation, Trans } from 'react-i18next'; // Import Hook
+import { Helmet } from 'react-helmet-async'; // Import Helmet
+import { useTranslation, Trans } from 'react-i18next';
 
 const PrivacyPolicy = () => {
   const { t } = useTranslation();
 
   return (
     <div className="pt-28 pb-20 bg-white min-h-screen">
+      {/* SEO CONFIG */}
+      <Helmet>
+        <title>{t('privacy.title')} - PT. Colink Sigma Indonesia</title>
+        <meta name="description" content="Privacy Policy of PT. Colink Sigma Indonesia." />
+      </Helmet>
+
       <div className="container mx-auto px-6 max-w-4xl">
-        
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
