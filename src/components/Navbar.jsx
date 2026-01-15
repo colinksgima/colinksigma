@@ -68,7 +68,7 @@ const Navbar = () => {
         {/* --- 1. LOGO SECTION --- */}
         <Link to="/" className="flex items-center flex-shrink-0">
           <img 
-            src="images/logo.svg" 
+            src="images/logo.png" 
             alt="Colink Sigma Logo" 
             className={`object-contain transition-transform duration-300 hover:scale-110 
               ${isScrolled ? 'h-12 w-12 md:h-16 md:w-16' : 'h-14 w-14 md:h-20 md:w-20'}
@@ -147,7 +147,7 @@ const Navbar = () => {
 
           <div className="flex flex-col gap-8 text-center w-full px-8">
             <img 
-              src="images/logo.svg" 
+              src="images/logo.png" 
               alt="Colink Logo" 
               className="h-24 w-24 mx-auto mb-4 object-contain"
             />

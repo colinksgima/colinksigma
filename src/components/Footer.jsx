@@ -15,7 +15,7 @@ const Footer = () => {
       {/* --- BACKGROUND LOGO WATERMARK --- */}
       <div className="absolute inset-0 flex items-center justify-end pointer-events-none z-0 overflow-hidden">
         <img 
-          src="images/logo.svg" 
+          src="images/logo.png" 
           alt="Colink Watermark" 
           className="w-[400px] md:w-[700px] opacity-[0.05] grayscale brightness-150 translate-x-1/4 md:translate-x-10" 
         />
@@ -29,7 +29,7 @@ const Footer = () => {
           {/* 1. Brand Info */}
           <div className="lg:col-span-4">
             <Link to="/" className="block mb-6">
-               <img src="images/logo.svg" alt="Colink Sigma" className="h-14 brightness-0 invert" /> 
+               <img src="images/logo.png" alt="Colink Sigma" className="h-14 brightness-0 invert" /> 
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 pr-6">
               {t('footer.desc')}
