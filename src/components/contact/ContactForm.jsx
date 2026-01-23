@@ -193,7 +193,7 @@ const ContactForm = () => {
                 </Marker>
              </MapContainer>
              
-             <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-6 rounded-xl shadow-lg border-l-4 border-orange-500 z-[400]">
+             <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-6 rounded-xl shadow-lg border-l-4 border-orange-500 z-10">
                <h4 className="font-bold text-gray-900 text-lg mb-3 flex items-center gap-2">
                  <MapPin className="text-orange-500" size={20}/> {t('contact_page.map.office_label')}
                </h4>

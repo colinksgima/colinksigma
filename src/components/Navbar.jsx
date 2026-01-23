@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
-import { useTranslation } from 'react-i18next'; // 1. Import Hook
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,17 +9,14 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
-  // 2. Inisialisasi Hook i18n
   const { t, i18n } = useTranslation();
 
-  // 3. Konfigurasi Bahasa (Code disesuaikan dengan i18n.js: 'id', 'en', 'de')
   const languages = [
     { code: 'id', display: 'ID', label: 'Indonesia', flag: 'https://flagcdn.com/w40/id.png' },
     { code: 'en', display: 'EN', label: 'English', flag: 'https://flagcdn.com/w40/gb.png' },
     { code: 'de', display: 'DE', label: 'Deutsch', flag: 'https://flagcdn.com/w40/de.png' }
   ];
 
-  // Menentukan bahasa aktif berdasarkan state i18n saat ini
   const activeLang = languages.find(l => l.code === i18n.language) || languages[0];
 
   useEffect(() => {
@@ -36,14 +33,12 @@ const Navbar = () => {
       : "text-gray-300 hover:text-white font-medium";
   };
 
-  // 4. Fungsi Ganti Bahasa
   const handleLangSelect = (langCode) => {
-    i18n.changeLanguage(langCode); // Perintah utama ganti bahasa
+    i18n.changeLanguage(langCode);
     setIsLangOpen(false);
-    setIsMenuOpen(false); // Tutup menu mobile jika sedang terbuka
+    setIsMenuOpen(false);
   };
 
-  // 5. Daftar Menu Dinamis (Menggunakan t)
   const navLinks = [
     { path: '/', label: t('navbar.home') },
     { path: '/about', label: t('navbar.about') },
@@ -53,7 +48,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className={`fixed left-0 right-0 z-50 flex justify-center transition-all duration-500 ${
+    // PERUBAHAN DI SINI: Mengganti z-[999] menjadi z-40
+    // z-40 cukup tinggi untuk di atas konten web, tapi cukup rendah agar di bawah Modal (biasanya z-50)
+    <div className={`fixed left-0 right-0 z-40 flex justify-center transition-all duration-500 ${
       isScrolled ? 'top-4' : 'top-0'
     }`}>
       

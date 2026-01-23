@@ -25,7 +25,9 @@ const GalleryGrid = () => {
         "images/installation-830-226/installation-4.jpg",
         "images/installation-830-226/installation-5.jpg",
         "images/installation-830-226/installation-6.jpg",
-        "images/installation-830-226/installation-7.jpg"
+        "images/installation-830-226/installation-7.jpg",
+        "images/installation-830-226/installation-8.jpg",
+        "images/installation-830-226/installation-9.jpg"
       ]
     },
     {
@@ -44,7 +46,8 @@ const GalleryGrid = () => {
         "images/612-overhaul/VF-612-5.jpg",
         "images/612-overhaul/VF-612-6.jpg",
         "images/612-overhaul/VF-612-7.jpg",
-        "images/612-overhaul/VF-612-8.jpg"
+        "images/612-overhaul/VF-612-8.jpg",
+        "images/612-overhaul/VF-612-9.jpg"
       ]
     },
     {

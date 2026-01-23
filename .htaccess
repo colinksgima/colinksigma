@@ -1,3 +1,4 @@
+# --- BAGIAN 1: ROUTING REACT (Agar tidak error saat refresh) ---
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -6,4 +7,23 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . /index.html [L]
+</IfModule>
+
+# --- BAGIAN 2: ANTI CACHE (Agar update langsung muncul) ---
+<IfModule mod_headers.c>
+    # Matikan cache khusus file HTML (index.html)
+    # Ini memaksa browser selalu cek versi terbaru ke server
+    <FilesMatch "\.(html|htm)$">
+        FileETag None
+        Header unset ETag
+        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+    </FilesMatch>
+
+    # Simpan cache untuk file aset (CSS/JS/Gambar) agar loading cepat
+    # File ini aman dicache karena Vite otomatis mengganti nama filenya jika isinya berubah
+    <FilesMatch "\.(css|js|jpg|jpeg|png|gif|webp|svg|woff|woff2)$">
+        Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
 </IfModule>
