@@ -26,8 +26,7 @@ const GalleryGrid = () => {
         "images/installation-830-226/installation-5.jpg",
         "images/installation-830-226/installation-6.jpg",
         "images/installation-830-226/installation-7.jpg",
-        "images/installation-830-226/installation-8.jpg",
-        "images/installation-830-226/installation-9.jpg"
+        "images/installation-830-226/installation-8.jpg"
       ]
     },
     {
@@ -63,7 +62,8 @@ const GalleryGrid = () => {
         "images/casing-trial/cassing-trial-2.jpg",
         "images/casing-trial/cassing-trial-3.jpg",
         "images/casing-trial/cassing-trial-4.jpg",
-        "images/casing-trial/cassing-trial-5.jpg"
+        "images/casing-trial/cassing-trial-5.jpg",
+        "images/casing-trial/cassing-trial-6.jpg"
       ]
     },
     {
