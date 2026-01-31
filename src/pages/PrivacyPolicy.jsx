@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet-async'; // Import Helmet
+import { Helmet } from 'react-helmet-async';
 import { useTranslation, Trans } from 'react-i18next';
 
 const PrivacyPolicy = () => {
@@ -8,11 +8,18 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="pt-28 pb-20 bg-white min-h-screen">
-      {/* SEO CONFIG */}
+      {/* --- SEO CONFIG (DIPERBAIKI) --- */}
       <Helmet>
-        <title>{t('privacy.title')} - PT. Colink Sigma Indonesia</title>
-        <meta name="description" content="Privacy Policy of PT. Colink Sigma Indonesia." />
+        {/* Gunakan pemisah "|" agar terlihat lebih profesional */}
+        <title>{t('privacy.title')} | Legal - PT. Colink Sigma Indonesia</title>
+        
+        {/* PENTING: Gunakan t() untuk deskripsi agar bahasanya ikut berubah */}
+        <meta name="description" content={t('privacy.intro_desc').substring(0, 160)} />
+        
+        {/* Privacy Policy tidak perlu keyword agresif, cukup identitas */}
+        <meta name="robots" content="index, follow" />
       </Helmet>
+      {/* ------------------------------- */}
 
       <div className="container mx-auto px-6 max-w-4xl">
         <motion.div 
@@ -64,12 +71,21 @@ const PrivacyPolicy = () => {
             <section>
               <h2 className="text-xl font-bold text-gray-900 mb-3">{t('privacy.contact_title')}</h2>
               <p>{t('privacy.contact_desc')}</p>
-              <div className="mt-4 bg-gray-50 p-6 rounded-xl border border-gray-100">
-                <p className="font-bold text-blue-900">PT. Colink Sigma Indonesia</p>
-                <p>Cikarang, Bekasi, Jawa Barat, Indonesia</p>
-                <p>Email: sugicolink@gmail.com</p>
-                <p>Phone: +62 853-1382-7131</p>
+              
+              {/* --- UPDATE: KONTAK BISA DIKLIK --- */}
+              <div className="mt-4 bg-gray-50 p-6 rounded-xl border border-gray-100 shadow-sm">
+                <p className="font-bold text-blue-900 text-lg mb-2">PT. Colink Sigma Indonesia</p>
+                <p className="mb-2 text-gray-600">Cikarang, Bekasi, Jawa Barat, Indonesia</p>
+                
+                <p className="mb-1">
+                  Email: <a href="mailto:sugicolink@gmail.com" className="text-blue-600 hover:underline font-medium">sugicolink@gmail.com</a>
+                </p>
+                
+                <p>
+                  Phone: <a href="https://wa.me/6285313827131" target="_blank" rel="noreferrer" className="text-green-600 hover:underline font-medium">+62 853-1382-7131</a>
+                </p>
               </div>
+              {/* ---------------------------------- */}
             </section>
 
           </div>

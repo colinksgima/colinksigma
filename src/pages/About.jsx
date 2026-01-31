@@ -11,11 +11,22 @@ const About = () => {
 
   return (
     <div className="overflow-hidden">
-      {/* SEO CONFIG */}
+      {/* --- SEO CONFIG (DIOPTIMALKAN) --- */}
       <Helmet>
-        <title>{t('navbar.about')} - PT. Colink Sigma Indonesia</title>
+        {/*
+           UBAH: Jangan hanya "About - Nama PT".
+           TAMBAH: Keyword keahlian (misal: Industrial Partner / Spesialis Mesin)
+           Teknik: Menggabungkan terjemahan + Keyword manual
+        */}
+        <title>{t('navbar.about')} | Industrial Machinery Partner - PT. Colink Sigma</title>
+        
+        {/* Pastikan text 'about.hero.desc' di file json mengandung kata 'Cikarang', 'Mesin', 'Maintenance' */}
         <meta name="description" content={t('about.hero.desc')} />
+        
+        {/* Tambahan Opsional: Keyword khusus halaman ini */}
+        <meta name="keywords" content="profil perusahaan colink sigma, teknisi mesin cikarang, industrial maintenance indonesia" />
       </Helmet>
+      {/* ---------------------------------- */}
       
       <AboutHero />
       <AboutStory />

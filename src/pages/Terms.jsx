@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Helmet } from 'react-helmet-async'; // Import Helmet
+import { Helmet } from 'react-helmet-async';
 import { useTranslation, Trans } from 'react-i18next';
 
 const Terms = () => {
@@ -8,11 +8,18 @@ const Terms = () => {
 
   return (
     <div className="pt-28 pb-20 bg-white min-h-screen">
-      {/* SEO CONFIG */}
+      {/* --- SEO CONFIG (DIPERBAIKI) --- */}
       <Helmet>
-        <title>{t('terms.title')} - PT. Colink Sigma Indonesia</title>
-        <meta name="description" content="Terms and Conditions of PT. Colink Sigma Indonesia." />
+        {/* Gunakan pemisah "|" agar rapi */}
+        <title>{t('terms.title')} | Legal - PT. Colink Sigma Indonesia</title>
+        
+        {/* PENTING: Gunakan t() agar deskripsi berubah sesuai bahasa */}
+        {/* Kita ambil 150 karakter pertama dari paragraf persetujuan sebagai deskripsi singkat */}
+        <meta name="description" content={t('terms.agreement_desc').substring(0, 150)} />
+        
+        <meta name="robots" content="index, follow" />
       </Helmet>
+      {/* ------------------------------- */}
 
       <div className="container mx-auto px-6 max-w-4xl">
         <motion.div 

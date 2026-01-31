@@ -11,11 +11,26 @@ const Services = () => {
 
   return (
     <div className="overflow-hidden">
-      {/* SEO CONFIG */}
+      {/* --- SEO CONFIG (OPTIMAL) --- */}
       <Helmet>
-        <title>{t('navbar.services')} - PT. Colink Sigma Indonesia</title>
+        {/* JUDUL:
+            Menggabungkan "Layanan" dengan Keyword Jualan Utama.
+            Hasil: "Layanan | Spesialis Overhaul & Instalasi Mesin - PT. Colink Sigma"
+        */}
+        <title>{t('navbar.services')} | Spesialis Overhaul & Instalasi Mesin - PT. Colink Sigma</title>
+        
+        {/* DESKRIPSI:
+            Pastikan 'services_page.hero.desc' di file JSON menjelaskan detail teknis.
+            Misal: "Layanan lengkap mencakup instalasi mesin baru, overhaul vacuum filler, perbaikan elektrikal, hingga supply sparepart original."
+        */}
         <meta name="description" content={t('services_page.hero.desc')} />
+        
+        {/* KEYWORDS:
+            Targetkan nama-nama layanan teknis.
+        */}
+        <meta name="keywords" content="jasa overhaul mesin, instalasi mesin pabrik, perbaikan vacuum filler, maintenance mesin sosis, elektrikal industri, sparepart mesin" />
       </Helmet>
+      {/* --------------------------- */}
       
       <ServicesHero />
       <ServicesDetail />

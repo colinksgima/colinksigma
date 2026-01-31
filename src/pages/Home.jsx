@@ -13,11 +13,26 @@ const Home = () => {
 
   return (
     <div className="overflow-hidden">
-      {/* SEO CONFIG */}
+      {/* --- SEO CONFIG (OPTIMAL) --- */}
       <Helmet>
-        <title>{t('navbar.home')} - PT. Colink Sigma Indonesia</title>
+        {/* JUDUL UTAMA:
+            Jangan pakai "Home - Nama PT". Itu membuang peluang.
+            Pakai: "Jasa [Layanan Utama] [Lokasi] | Nama PT"
+        */}
+        <title>Jasa Instalasi Mesin Pabrik & Maintenance Cikarang | PT. Colink Sigma</title>
+        
+        {/* DESKRIPSI:
+            Pastikan 'home.hero.desc' di file bahasa (id.json) isinya:
+            "Spesialis jasa instalasi mesin industri, overhaul vacuum filler, dan supply sparepart di Cikarang. Partner maintenance terpercaya."
+        */}
         <meta name="description" content={t('home.hero.desc')} />
+        
+        {/* KEYWORDS:
+            Targetkan kata kunci pencarian manager pabrik.
+        */}
+        <meta name="keywords" content="jasa maintenance mesin cikarang, teknisi vacuum filler, overhaul mesin sosis, sparepart mesin industri, colink sigma" />
       </Helmet>
+      {/* --------------------------- */}
 
       <Hero />
       <HomeStats />
