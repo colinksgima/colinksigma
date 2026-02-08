@@ -82,16 +82,16 @@
     "hero": {
       "subtitle": "Wer wir sind",
       "title": "Deutsche Expertise. <br/> Indonesische Lösungen.",
-      "desc": "PT. Colink Sigma Indonesia steht als Brücke zwischen europäischer Standard-Fleischverarbeitungstechnologie und lokalen Industriebedürfnissen in Indonesien."
+      "desc": "PT. Colink Sigma Indonesia stellt die Brücke zwischen europäischer Fleischverarbeitungstechnologie und den Bedürfnissen der lokalen Industrie in Indonesien."
     },
     "story": {
       "established": "Gegründet",
       "title": "Ein neuer Standard in der <br/> Lebensmitteltechnologie",
-      "desc": "Obwohl erst 2025 gegründet, wurde unser Fundament an Fachwissen über Jahrzehnte aufgebaut. Geleitet von in Deutschland ausgebildeten Experten bringen wir strenge \"Deutsche Metzger\"-Standards in jeden unserer Dienste.",
+      "desc": "Obwohl wir erst 2025 gegründet wurden, basiert unsere Expertise auf jahrzehntelanger Erfahrung. Unterstützt von einem in Deutschland ausgebildeten Experten, gewährleisten wir bei all unseren Dienstleistungen höchste Qualitätsstandards nach deutschem Meisterstandard.",
       "cert_title": "Zertifizierter Metzgermeister",
-      "cert_desc": "Höchste Qualifikation in der Fleischverarbeitung (Meisterbrief) seit 2002.",
+      "cert_desc": "Qualifikation in der Fleischverarbeitung (Meistermeisterzertifikat) seit 2002.",
       "edu_title": "Deutsch Ausgebildet",
-      "edu_desc": "Metzgerausbildung in Deutschland seit 1998 & Anwendungs-/Servicetechniker seit 2010."
+      "edu_desc": "Fleischerausbildung in Deutschland seit 1998 & Anwendungs-/Servicetechniker seit 2010."
     },
     "team": {
       "title": "Lernen Sie die Führung kennen",
@@ -104,11 +104,11 @@
     },
     "vision": {
       "title": "Unsere Vision",
-      "desc": "Der führende technische Partner in Indonesien zu sein, dem man wegen Integrität, deutscher Präzision und innovativen Lösungen in der lebensmittelverarbeitenden Industrie vertraut.",
+      "desc": "Ein zuverlässiger technischer Partner in Indonesien zu sein, der für Integrität, deutsche Präzision und innovative Lösungen in der Lebensmittelverarbeitung steht.",
       "mission_title": "Unsere Mission",
-      "mission_1": "Bereitstellung schneller & präziser technischer Dienste.",
-      "mission_2": "Lieferung hochwertiger Produkte.",
-      "mission_3": "Aufklärung der lokalen Industrie über globale Hygienestandards."
+      "mission_1": "Schnelle und präzise technische Dienstleistungen.",
+      "mission_2": "Hochwertige Produkte liefern.",
+      "mission_3": "Die lokale Industrie über globale Hygienestandards zu informieren."
     }
   },
   "services_page": {

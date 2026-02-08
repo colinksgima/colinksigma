@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "footer": {
-    "desc": "Strategic partner for the meat processing industry. Bringing German engineering precision with responsive and trusted local service.",
+    "desc": "responsible partner for the meat processing industry. Bringing German technical know-how and trusted local service.",
     "expertise": "Our Expertise",
     "links": "Quick Links",
     "office": "Head Office",
@@ -36,13 +36,13 @@
     "hero": {
       "since": "Since 2025",
       "title": "European Expertise, <br/> Indonesian Heart.",
-      "desc": "PT. Colink Sigma Indonesia is here as a strategic partner for the meat processing industry. We don't just sell products, we provide comprehensive solutions for your production efficiency and quality.",
-      "tech_service": "Technical Services",
-      "tech_desc": "Machine Installation, Maintenance & Training.",
-      "master_consult": "Master Consulting",
+      "desc": "PT. Colink Sigma Indonesia is here as a reliable partner for the meat processing industry. We don't just sell products, we provide comprehensive solutions for your production efficiency and quality.",
+      "tech_service": "Technical Support",
+      "tech_desc": "Machine installation, repairs, training & maintenance.",
+      "master_consult": "Master Butcher Consulting",
       "master_desc": "Recipes & Efficiency from German Experts.",
-      "premium_casing": "Premium Casings",
-      "premium_desc": "High Quality Collagen Casing Supply.",
+      "premium_casing": "Premium-Quality casings & spices",
+      "premium_desc": "Provide high-quality collagen, cellulose, and plastic casings and spices.",
       "btn_about": "About Us",
       "btn_services": "See Full Services",
       "trusted_sol": "Trusted Solution",
@@ -66,15 +66,15 @@
       "title": "Our Core Competencies",
       "tech_title": "Technical Service",
       "tech_desc": "High precision machine installation & repair.",
-      "butcher_title": "Butcher Consulting",
+      "butcher_title": "Master butcher Consultation",
       "butcher_desc": "Recipe optimization & production efficiency.",
       "supply_title": "Premium Supplies",
       "supply_desc": "Quality collagen casings & ingredients.",
       "learn_more": "Learn More"
     },
     "cta": {
-      "title": "Ready to Upgrade <br/> Your Production?",
-      "desc": "Consult your machine and casing needs with our experts for maximum results.",
+      "title": "Ready to Improve <br/> Your Production?",
+      "desc": "Let our experts advise you on your machinery and ingredients to achieve optimal results.",
       "btn": "Contact Us"
     }
   },
@@ -89,12 +89,12 @@
       "title": "A New Standard in <br/> Food Technology",
       "desc": "Although newly established in 2025, our foundation of expertise has been built over decades. Led by German-educated experts, we bring strict \"German Butcher\" standards to every service we provide.",
       "cert_title": "Certified Master Butcher",
-      "cert_desc": "Highest qualification in meat processing (Meisterbrief) since 2002.",
+      "cert_desc": "Qualification in meat processing (Master Butcher Certificate) since 2002.",
       "edu_title": "German Educated",
       "edu_desc": "Butcher education in Germany since 1998 & Application / Service field technician since 2010."
     },
     "team": {
-      "title": "Meet The Leadership",
+      "title": "Meet our Team",
       "lars_role": "Master Butcher & Application / Service Technician",
       "lars_desc": "German Certified Master Butcher since 2002 & Service Technician since 2010.",
       "sugi_role": "Managing Director",
@@ -120,8 +120,8 @@
     "detail": {
       "item1": {
         "title": "Technical Services & Training",
-        "subtitle": "Installation, Commissioning & Maintenance",
-        "desc": "Complete technical support for meat processing machines, from installation to operational training, hands on service, so that your production runs smoothly, efficiently, and safely.",
+        "subtitle": "Installation, Commissioning, Repairs & Maintenance",
+        "desc": "Technical support for meat processing machinery, from installation to operational training, hands on service to ensure your production runs smoothly, efficiently, and safely.",
         "points": [
           "Professional Installation & Commissioning",
           "Preventive Maintenance & Repair",
@@ -143,16 +143,16 @@
       "item3": {
         "title": "High-Quality Casings & Ingredients",
         "subtitle": "For Sausage & Meat Production",
-        "desc": "Premium casings (Hal-Hal) certified, designed for modern sausage production. ",
+        "desc": "Premium casings (Halal certified), specially developed for modern sausage making.",
         "points": [
           "Collagen, Cellulose & Plastic",
-          "Suitable for Cooked, Dry & Raw Sausages",
-          "Functional Spices & Premix Supply"
+          "Suitable for Cooked, Dried / Raw Sausages",
+          "Functional herbs, spices or premix blends"
         ]
       }
     },
     "process": {
-      "title": "How We Work",
+      "title": "Our Approach",
       "step1_title": "Consultation",
       "step1_desc": "Practical discussion to identify production needs and efficiency.",
       "step2_title": "Solution Design",
@@ -160,7 +160,7 @@
       "step3_title": "Implementation",
       "step3_desc": "Installation, commissioning, application / operator training.",
       "step4_title": "Support",
-      "step4_desc": "Ongoing technical support & hands on service."
+      "step4_desc": "Technical with hands on service."
     },
     "brands": {
       "title": "Machine Brands We Support",
@@ -172,7 +172,7 @@
       "mauting": "Smoking, Cooking and Chilling Chambers"
     },
     "cta": {
-      "title": "Ready to Upgrade <br/> Your Production?",
+      "title": "Ready to Suggestions <br/> Your Improvements to Your Production?",
       "desc": "Contact us for a technical visit schedule, recipe discussion, or collagen casing sample request.",
       "btn": "Start Consultation"
     }
@@ -200,7 +200,7 @@
       "point2": "German Standard of Installation & Commissioning"
     },
     "projects": {
-      "p1_title": "Line VF 830 + PVLH 226 Installation",
+      "p1_title": "Installation of a VF 830 + PVLH 226 line",
       "p1_cat": "Full Line Setup",
       "p1_desc": "Complete sausage production line installation of a Vacuum filler and hanging line.",
       "p2_title": "612 Machine Overhaul",
@@ -218,7 +218,7 @@
     "hero": {
       "subtitle": "Get In Touch",
       "title": "Let's Start a <br/> Conversation",
-      "desc": "Do you need machine installation, recipe consultation, or casing supply? Our expert team is ready to help your industrial needs."
+      "desc": "Do you need machine installation, recipe consultation or high-quality casings or spices? Our team is happy to help your industrial needs."
     },
     "info": {
       "office_title": "Head Office",
