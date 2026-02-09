@@ -85,6 +85,7 @@
       "desc": "PT. Colink Sigma Indonesia stellt die Brücke zwischen europäischer Fleischverarbeitungstechnologie und den Bedürfnissen der lokalen Industrie in Indonesien."
     },
     "story": {
+      "subtitle": "Unsere Geschichte",
       "established": "Gegründet",
       "title": "Ein neuer Standard in der <br/> Lebensmitteltechnologie",
       "desc": "Obwohl wir erst 2025 gegründet wurden, basiert unsere Expertise auf jahrzehntelanger Erfahrung. Unterstützt von einem in Deutschland ausgebildeten Experten, gewährleisten wir bei all unseren Dienstleistungen höchste Qualitätsstandards nach deutschem Meisterstandard.",
@@ -119,9 +120,9 @@
     },
     "detail": {
       "item1": {
-        "title": "Technischer Service & Schulung",
-        "subtitle": "Installation, Inbetriebnahme & Wartung",
-        "desc": "Kompletter technischer Support für Fleischverarbeitungsmaschinen, von Installation bis zu operativen Schulungen, Hands-on-Service, damit Ihre Produktion reibungslos, effizient und sicher läuft.",
+        "title": "Technische Schulung, Wartung & Reparaturen",
+        "subtitle": "Installation, Inbetriebnahme Reparaturen & Wartung",
+        "desc": "Technische Unterstützung für Fleischverarbeitungsmaschinen, von Installation bis zu operativen Schulungen, handlungsorientierte Wartung damit Ihre Produktion reibungslos, effizient und sicher läuft.",
         "points": [
           "Professionelle Installation & Inbetriebnahme",
           "Vorbeugende Wartung & Reparatur",
@@ -130,37 +131,37 @@
         ]
       },
       "item2": {
-        "title": "Metzgermeister-Beratung",
-        "subtitle": "Rezeptur, Effizienz & Hygiene",
-        "desc": "Optimieren Sie Ihren Betrieb mit fachkundiger Anleitung eines deutschen Metzgermeisters (seit 2002). Wir helfen, Produktivität und konsistente Produktqualität zu steigern.",
+        "title": "Beratung durch einen Metzgermeister",
+        "subtitle": "Rezepte, Effizienz & Hygiene",
+        "desc": "Optimieren Sie Ihre Betriebsabläufe mit der fachkundigen Beratung eines deutschen Metzgermeisters (seit 2002). Wir helfen Ihnen, Ihre Produktivität zu steigern und eine gleichbleibende Produktqualität zu gewährleisten.",
         "points": [
           "Rezept- & Geschmacksentwicklung (Textur/Aroma)",
           "Produktionseffizienz & Prozessablauf",
           "Hygieneverfahren & Lebensmittelsicherheit (HACCP)",
-          "Anlagenbediener- & Anwendungsschulung"
+          "Schulungen für Gerätebediener & Anwendungstechnik"
         ]
       },
       "item3": {
         "title": "Hochwertige Därme & Zutaten",
-        "subtitle": "Für Wurst- & Fleischproduktion",
-        "desc": "Premium-Därme (Halal-zertifiziert), entwickelt für die moderne Wurstproduktion.",
+        "subtitle": "Für die Wurst- und Fleischproduktion",
+        "desc": "Hochwertige Därme (Halal-zertifiziert), speziell entwickelt für die moderne Wurstherstellung.",
         "points": [
-          "Kollagen, Cellulose & Kunststoff",
-          "Geeignet für Brüh-, Roh- & Trockenwurst",
-          "Funktionelle Gewürze & Vormischungen"
+          "Kollagen, Zellulose und Kunststoff.",
+          "Geeignet für gebrühte, gekochte und getrocknete/rohe Würste.",
+          "Funktionelle Kräuter, Gewürze oder Fertigmischungen."
         ]
       }
     },
     "process": {
-      "title": "Wie wir arbeiten",
+      "title": "Unsere Arbeitsweise",
       "step1_title": "Beratung",
-      "step1_desc": "Praktische Diskussion zur Ermittlung von Produktionsbedarf und Effizienz.",
-      "step2_title": "Lösungsdesign",
-      "step2_desc": "Entwurf von Rezepten, Maschinenauswahl oder geeigneten Wartungsplänen.",
+      "step1_desc": "Praxisorientiertes Gespräch zur Ermittlung von Produktionsbedarf und Effizienzsteigerung.",
+      "step2_title": "Lösungsentwicklung",
+      "step2_desc": "Rezepturentwicklung, Maschinenauswahl und Erstellung geeigneter Wartungspläne.",
       "step3_title": "Implementierung",
-      "step3_desc": "Installation, Inbetriebnahme, Anwendungs-/Bedienerschulung.",
-      "step4_title": "Support",
-      "step4_desc": "Laufender technischer Support & Hands-on-Service."
+      "step3_desc": "Installation, Inbetriebnahme, Anwenderschulung und Bedienerschulung.",
+      "step4_title": "Unterstützung",
+      "step4_desc": "Technischer mit praktische Unterstützung."
     },
     "brands": {
       "title": "Maschinenmarken, die wir unterstützen",
@@ -172,8 +173,8 @@
       "mauting": "Rauch-, Koch- und Kühlkammern"
     },
     "cta": {
-      "title": "Bereit, Ihre Produktion <br/> zu verbessern?",
-      "desc": "Kontaktieren Sie uns für einen technischen Besuchstermin, Rezeptdiskussionen oder Musteranfragen für Kollagendärme.",
+      "title": "Sind Sie offen für Verbesserungsvorschläge für Ihre Produktion?",
+      "desc": "Kontaktieren Sie uns für einen technischen Besuch, eine Rezeptbesprechung oder die Anforderung von Kollagendärme Muster.",
       "btn": "Beratung Starten"
     }
   },
@@ -194,31 +195,31 @@
     },
     "spotlight": {
       "subtitle": "Projekt-Highlight",
-      "title": "MAUTING RAUCHKAMMER <br/> INSTALLATION",
-      "desc": "Eine technische Errungenschaft bei der Installation moderner Rauch-/Kochkammern & Intensivkühlsysteme. Dieses Projekt umfasste die vollständige Integration von Steuerungssystemen und automatisierter Verarbeitung für konsistente Produktergebnisse.",
+      "title": "Räucherkammer von MAUTING INSTALLATION",
+      "desc": "Technische Meisterleistung im Bereich moderner Räucher-/Kochkammern und Intensivkühlsysteme. Dieses Projekt umfasste die vollständige Integration von Steuerungssystemen und automatisierter Verarbeitung für gleichbleibende Produktqualität. Vollständige Systemkalibrierung Installation und Inbetriebnahme nach deutschem Standard.",
       "point1": "Vollständige Systemkalibrierung",
       "point2": "Deutscher Standard für Installation & Inbetriebnahme"
     },
     "projects": {
-      "p1_title": "Installation Linie VF 830 + PVLH 226",
+      "p1_title": "Installation einer VF 830 + PVLH 226 linie",
       "p1_cat": "Komplette Linien-Einrichtung",
-      "p1_desc": "Komplette Installation einer Wurstproduktionslinie: Vakuumfüller und Aufhängelinie.",
+      "p1_desc": "Komplette Installation einer Wurstproduktionslinie mit Vakuumfüller und Aufhängevorrichtung.",
       "p2_title": "612 Maschinenüberholung",
       "p2_cat": "Wartung",
-      "p2_desc": "Vollständige Erneuerung der Vakuumfüllmaschine. Komplette Demontage, Dichtungsaustausch und Neukalibrierung nach Werksstandards.",
+      "p2_desc": "Komplette Überholung einer Vakuumfüllmaschine. Vollständige Demontage, Dichtungsaustausch und Neukalibrierung gemäß Werksstandards.",
       "p3_title": "Darm-Versuch",
       "p3_cat": "F&E Unterstützung",
       "p3_desc": "Anwendungsversuche mit Kollagendärmen: Füll-, Rauch-, Kochleistung und zarter Biss.",
-      "p4_title": "Einrichtung Mauting Rauch- & Kochkammern, Intensivkühlkammern, Installation und Inbetriebnahme UKM 2002 D & ZKM 2002",
+      "p4_title": "Mauting Räucher- und Kochkammern, Intensivkühlkammern: Einrichtung, Installation und Inbetriebnahme UKM 2002 D & ZKM 2002",
       "p4_cat": "Anlageninstallation",
-      "p4_desc": "Produktkonsistenz, Produktionseffizienz & Produktionsfluss."
+      "p4_desc": "Produktkonsistenz, Produktionseffizienz und Produktionsablauf."
     }
   },
   "contact_page": {
     "hero": {
       "subtitle": "Kontaktieren Sie uns",
       "title": "Lassen Sie uns ein <br/> Gespräch beginnen",
-      "desc": "Benötigen Sie Maschineninstallation, Rezeptberatung oder Darmlieferung? Unser Expertenteam steht bereit, um Ihre industriellen Bedürfnisse zu unterstützen."
+      "desc": "Benötigen Sie Maschineninstallation, Rezepturberatung oder Qualitätsdärme or Gewürze? Unser Team unterstützt Sie gerne bei Ihren industriellen Bedürfnissen."
     },
     "info": {
       "office_title": "Hauptsitz",

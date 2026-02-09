@@ -38,11 +38,11 @@
       "title": "Keahlian Eropa, <br/> Hati Indonesia.",
       "desc": "PT. Colink Sigma Indonesia hadir sebagai mitra strategis industri pengolahan daging. Kami tidak hanya menjual produk, kami memberikan solusi menyeluruh untuk efisiensi dan kualitas produksi Anda.",
       "tech_service": "Layanan Teknis",
-      "tech_desc": "Instalasi Mesin, Perawatan & Pelatihan.",
-      "master_consult": "Konsultasi Master",
+      "tech_desc": "Instalasi Mesin, Perbaikan, Pelatihan & Perawatan.",
+      "master_consult": "Konsultasi Master Butcher",
       "master_desc": "Resep & Efisiensi dari Ahli Jerman.",
-      "premium_casing": "Casing Premium",
-      "premium_desc": "Suplai Casing Kolagen Berkualitas Tinggi.",
+      "premium_casing": "Casing & Bumbu Premium",
+      "premium_desc": "Menyediakan casing kolagen, selulosa, plastik, dan bumbu berkualitas tinggi.",
       "btn_about": "Tentang Kami",
       "btn_services": "Lihat Layanan Lengkap",
       "trusted_sol": "Solusi Terpercaya",
@@ -66,7 +66,7 @@
       "title": "Kompetensi Inti Kami",
       "tech_title": "Layanan Teknis",
       "tech_desc": "Instalasi & perbaikan mesin presisi tinggi.",
-      "butcher_title": "Konsultasi Butcher",
+      "butcher_title": "Konsultasi Master Butcher",
       "butcher_desc": "Optimasi resep & efisiensi produksi.",
       "supply_title": "Suplai Premium",
       "supply_desc": "Casing kolagen & bahan berkualitas.",
@@ -74,7 +74,7 @@
     },
     "cta": {
       "title": "Siap Meningkatkan <br/> Produksi Anda?",
-      "desc": "Konsultasikan kebutuhan mesin dan casing Anda dengan ahli kami untuk hasil maksimal.",
+      "desc": "Biarkan ahli kami memberi saran mengenai kebutuhan mesin dan bahan baku Anda untuk mencapai hasil yang optimal.",
       "btn": "Hubungi Kami"
     }
   },
@@ -85,6 +85,7 @@
       "desc": "PT. Colink Sigma Indonesia berdiri sebagai jembatan antara teknologi pengolahan daging standar Eropa dengan kebutuhan industri lokal di Indonesia."
     },
     "story": {
+      "subtitle": "Sejarah Kami",
       "established": "Didirikan",
       "title": "Standar Baru dalam <br/> Teknologi Pangan",
       "desc": "Meskipun baru didirikan pada tahun 2025, fondasi keahlian kami telah dibangun selama puluhan tahun. Dipimpin oleh tenaga ahli lulusan Jerman, kami membawa standar ketat \"German Butcher\" ke dalam setiap layanan kami.",
@@ -94,7 +95,7 @@
       "edu_desc": "Pendidikan Butcher di Jerman sejak 1998 & Teknisi Lapangan Aplikasi / Layanan sejak 2010."
     },
     "team": {
-      "title": "Temui Pimpinan Kami",
+      "title": "Temui Tim Kami",
       "lars_role": "Master Butcher & Teknisi Aplikasi / Layanan",
       "lars_desc": "Master Butcher Bersertifikat Jerman sejak 2002 & Teknisi Layanan sejak 2010.",
       "sugi_role": "Direktur Utama",
@@ -120,8 +121,8 @@
     "detail": {
       "item1": {
         "title": "Layanan Teknis & Pelatihan",
-        "subtitle": "Instalasi, Commissioning & Perawatan",
-        "desc": "Dukungan teknis lengkap untuk mesin pengolahan daging, dari instalasi hingga pelatihan operasional, layanan langsung, agar produksi Anda berjalan lancar, efisien, dan aman.",
+        "subtitle": "Instalasi, Commissioning, Perbaikan & Perawatan",
+        "desc": "Dukungan teknis lengkap untuk mesin pengolahan daging, dari instalasi hingga pelatihan operasional, layanan langsung agar produksi Anda berjalan lancar, efisien, dan aman.",
         "points": [
           "Instalasi & Commissioning Profesional",
           "Perawatan Preventif & Perbaikan",
@@ -143,7 +144,7 @@
       "item3": {
         "title": "Casing & Bahan Berkualitas Tinggi",
         "subtitle": "Untuk Produksi Sosis & Daging",
-        "desc": "Casing premium (bersertifikat Halal), dirancang untuk produksi sosis modern.",
+        "desc": "Casing premium (bersertifikat Halal), dirancang khusus untuk produksi sosis modern.",
         "points": [
           "Kolagen, Selulosa & Plastik",
           "Cocok untuk Sosis Masak, Kering & Mentah",
@@ -152,7 +153,7 @@
       }
     },
     "process": {
-      "title": "Cara Kami Bekerja",
+      "title": "Pendekatan Kami",
       "step1_title": "Konsultasi",
       "step1_desc": "Diskusi praktis untuk mengidentifikasi kebutuhan produksi dan efisiensi.",
       "step2_title": "Desain Solusi",
@@ -160,19 +161,19 @@
       "step3_title": "Implementasi",
       "step3_desc": "Instalasi, commissioning, pelatihan aplikasi / operator.",
       "step4_title": "Dukungan",
-      "step4_desc": "Dukungan teknis berkelanjutan & layanan langsung."
+      "step4_desc": "Dukungan teknis dengan layanan langsung."
     },
     "brands": {
       "title": "Merek Mesin yang Kami Dukung",
       "subtitle": "Kami berpengalaman menangani instalasi & servis merek-merek terkemuka.",
       "handtmann": "Sistem Pengisian, Porsi, dan Penggantungan",
-      "guenther": "Injektor dan Tumbler",
+      "guenther": "Injektoren dan Tumbler",
       "kg": "Bowl Cutter, Penggiling Daging",
       "kolbe": "Gergaji Pita, Penggiling Daging",
       "mauting": "Ruang Pengasapan, Memasak, dan Pendinginan"
     },
     "cta": {
-      "title": "Siap Meningkatkan <br/> Produksi Anda?",
+      "title": "Siap Memberikan Saran <br/> Peningkatan untuk Produksi Anda?",
       "desc": "Hubungi kami untuk jadwal kunjungan teknis, diskusi resep, atau permintaan sampel casing kolagen.",
       "btn": "Mulai Konsultasi"
     }
@@ -195,7 +196,7 @@
     "spotlight": {
       "subtitle": "Sorotan Proyek",
       "title": "INSTALASI SMOKEHOUSE <br/> MAUTING",
-      "desc": "Sebuah pencapaian teknis dalam instalasi ruang asap/masak modern & sistem pendinginan intensif. Proyek ini melibatkan integrasi penuh sistem kontrol dan pemrosesan otomatis untuk hasil produk yang konsisten.",
+      "desc": "Sebuah pencapaian teknis dalam instalasi ruang asap/masak modern & sistem pendinginan intensif. Proyek ini melibatkan integrasi penuh sistem kontrol dan pemrosesan otomatis untuk hasil produk yang konsisten. Kalibrasi sistem penuh, instalasi dan commissioning standar Jerman.",
       "point1": "Kalibrasi Sistem Penuh",
       "point2": "Standar Instalasi & Commissioning Jerman"
     },
@@ -218,7 +219,7 @@
     "hero": {
       "subtitle": "Hubungi Kami",
       "title": "Mari Mulai <br/> Percakapan",
-      "desc": "Apakah Anda membutuhkan instalasi mesin, konsultasi resep, atau supply casing? Tim ahli kami siap membantu kebutuhan industri Anda."
+      "desc": "Apakah Anda membutuhkan instalasi mesin, konsultasi resep, atau casing & bumbu berkualitas tinggi? Tim kami siap membantu kebutuhan industri Anda."
     },
     "info": {
       "office_title": "Kantor Pusat",

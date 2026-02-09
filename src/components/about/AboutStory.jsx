@@ -23,6 +23,7 @@ const AboutStory = () => {
                 <img src="images/sausage.jpg" alt="Our History" className="w-full h-auto object-cover" />
              </div>
              <div className="absolute -bottom-6 -right-6 bg-blue-900 text-white p-6 rounded-xl shadow-xl z-20 hidden md:block">
+                <p className="text-sm opacity-80 uppercase tracking-widest">{t('about.story.subtitle')}</p>
                 <p className="text-4xl font-bold">2025</p>
                 <p className="text-sm opacity-80 uppercase tracking-widest">{t('about.story.established')}</p>
              </div>
