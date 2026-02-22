@@ -7,7 +7,7 @@
     "contact": "Kontakt"
   },
   "footer": {
-    "desc": "Strategischer Partner für die fleischverarbeitende Industrie. Wir bringen deutsche Ingenieurspräzision mit reaktionsschnellem und vertrauenswürdigem lokalem Service.",
+    "desc": "Verantwortungsbewusster Partner für die Fleischverarbeitungsindustrie.  Wir vereinen deutsches technisch-praktisches Wissen und zuverlässigen Service vor Ort.",
     "expertise": "Unsere Expertise",
     "links": "Schnelllinks",
     "office": "Hauptsitz",
@@ -35,46 +35,46 @@
   "home": {
     "hero": {
       "since": "Seit 2025",
-      "title": "Europäische Expertise, <br/> Indonesisches Herz.",
-      "desc": "PT. Colink Sigma Indonesia ist hier als strategischer Partner für die fleischverarbeitende Industrie. Wir verkaufen nicht nur Produkte, wir bieten umfassende Lösungen für Ihre Produktionseffizienz und Qualität.",
+      "title": "Europäische Expertise, <br/> mit Indonesischem Herz.",
+      "desc": "PT. Colink Sigma Indonesia ist Ihr zuverlässiger Partner für die Fleischverarbeitungsindustrie. Wir verkaufen nicht nur Produkte, sondern bieten umfassende Lösungen für Ihre Produktionseffizienz und Qualität.",
       "tech_service": "Technische Unterstützung",
       "tech_desc": "Maschineninstallation, Reparaturen, Schulung & Wartung.",
       "master_consult": "Fleischermeisterberatung",
       "master_desc": "Rezepte & Effizienz von deutschen Experten.",
-      "premium_casing": "Qualitätsdärme",
-      "premium_desc": "Versorgung mit hochwertigen Kollagendärmen.",
+      "premium_casing": "Premium-Qualitätsdärme & Gewürze",
+      "premium_desc": "Stellen zur Verfügung hochwertige Kollagen-, Zellulose- und Plastikdärmen und Gewürze.",
       "btn_about": "Über uns",
       "btn_services": "Alle Leistungen ansehen",
       "trusted_sol": "Vertrauenswürdige Lösung",
       "trusted_sub": "Für die moderne Lebensmittelindustrie"
     },
     "brands": {
-      "trusted": "Vertraute Expertise mit"
+      "trusted": "Vertrauenswürdige Marken"
     },
     "why_choose": {
       "label": "Warum uns wählen",
-      "title": "Europäische Präzision für die <br/> indonesische Industrie",
-      "desc": "Wir verstehen, dass in der fleischverarbeitenden Industrie Präzision alles ist. Mit jahrzehntelanger Erfahrung in Deutschland und Indonesien bringen wir die höchsten Standards in Ihre Fabrik.",
-      "german_cert": "Deutscher Metzgermeister",
-      "german_desc": "deutsche Metzgermeister-Qualitätsstandards seit 2002.",
-      "reliable": "Zuverlässige Unterstützung",
-      "reliable_desc": "Technische Unterstützung zur Minimierung von Ausfallzeiten.",
-      "end_to_end": "Lösungen",
-      "end_to_end_desc": "Lösungen von Maschinen, Installation, Wartung bis zu Produktrezepten."
+      "title": "Europäische Präzision für die indonesische Fleischindustrie",
+      "desc": "Wir wissen, dass Präzision in der Fleischverarbeitung alles ist. Dank jahrzehntelanger Erfahrung in Deutschland und Indonesien bringen wir höchste Standards in Ihren Betrieb.",
+      "german_cert": "Deutsche Zertifizierung",
+      "german_desc": "Qualitätsstandards Deutscher Metzgermeister seit 2002.",
+      "reliable": "Zuverlässig Unterstützung",
+      "reliable_desc": "Schnelle technische Unterstützung für minimale Ausfallzeiten.",
+      "end_to_end": "Komplex Lösungen",
+      "end_to_end_desc": "Von Maschineninstallation bis hin zu Produktrezepturen."
     },
     "services": {
       "title": "Unsere Kernkompetenzen",
       "tech_title": "Technischer Service",
       "tech_desc": "Maschineninstallation, Reparaturen & Wartung.",
-      "butcher_title": "Metzgerberatung",
+      "butcher_title": "Metzgermeister-Beratung",
       "butcher_desc": "Rezeptoptimierung & Produktionseffizienz.",
       "supply_title": "Premium-Versorgung",
       "supply_desc": "Qualitätsdärme & Zutaten.",
       "learn_more": "Mehr erfahren"
     },
     "cta": {
-      "title": "Bereit, Ihre Produktion <br/> zu verbessern?",
-      "desc": "Besprechen Sie Ihren Maschinen- und Darmbedarf mit unseren Experten für maximale Ergebnisse.",
+      "title": "Bereit für Verbesserungen <br/> in Ihrer Produktion?",
+      "desc": "Lassen Sie sich von unseren Experten zu Ihren Maschinen und Zutaten beraten und erzielen Sie optimale Ergebnisse.",
       "btn": "Kontaktieren Sie uns"
     }
   },
