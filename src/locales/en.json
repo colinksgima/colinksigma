@@ -49,7 +49,7 @@
       "trusted_sub": "For Modern Food Industry"
     },
     "brands": {
-      "trusted": "Trusted Expertise With"
+      "trusted": "Trusted Brands"
     },
     "why_choose": {
       "label": "Why Choose Us",
@@ -81,14 +81,14 @@
   "about": {
     "hero": {
       "subtitle": "Who We Are",
-      "title": "German Expertise. <br/> Indonesian Solutions.",
-      "desc": "PT. Colink Sigma Indonesia stands as a bridge between European standard meat processing technology and local industry needs in Indonesia."
+      "title": "German Expertise. <br/> for Indonesian Solutions.",
+      "desc": "PT. Colink Sigma Indonesia stands as a bridge between European standard meat processing technology and for the local industry needs in Indonesia."
     },
     "story": {
       "subtitle": "Our History",
       "established": "Established",
       "title": "A New Standard in <br/> Food Technology",
-      "desc": "Although newly established in 2025, our foundation of expertise has been built over decades. Led by German-educated experts, we bring strict \"German Butcher\" standards to every service we provide.",
+      "desc": "Although newly established in 2025, our foundation of expertise has been built over decades. Supported by a German-educated expert, we bring strict \"German Master Butcher\" standards to every service we provide.",
       "cert_title": "Certified Master Butcher",
       "cert_desc": "Qualification in meat processing (Master Butcher Certificate) since 2002.",
       "edu_title": "German Educated",
@@ -105,7 +105,7 @@
     },
     "vision": {
       "title": "Our Vision",
-      "desc": "To be the leading technical partner in Indonesia trusted for integrity, German precision, and innovative solutions in the food processing industry.",
+      "desc": "To be a reliable technical support partner in Indonesia trusted for integrity, German precision, and innovative solutions in the food processing industry.",
       "mission_title": "Our Mission",
       "mission_1": "Provide fast & accurate technical services.",
       "mission_2": "Supply high-quality products.",
@@ -147,7 +147,7 @@
         "desc": "Premium casings (Halal certified), specially developed for modern sausage making.",
         "points": [
           "Collagen, Cellulose & Plastic",
-          "Suitable for Cooked, Dried / Raw Sausages",
+          "Suitable for scalded, cooked, dried/raw sausages",
           "Functional herbs, spices or premix blends"
         ]
       }
@@ -173,7 +173,7 @@
       "mauting": "Smoking, Cooking and Chilling Chambers"
     },
     "cta": {
-      "title": "Ready to Suggestions <br/> Your Improvements to Your Production?",
+      "title": "Ready to Suggestions <br/> for improvements of Your Production?",
       "desc": "Contact us for a technical visit schedule, recipe discussion, or collagen casing sample request.",
       "btn": "Start Consultation"
     }

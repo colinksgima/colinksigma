@@ -68,7 +68,7 @@
       "tech_desc": "Maschineninstallation, Reparaturen & Wartung.",
       "butcher_title": "Metzgermeister-Beratung",
       "butcher_desc": "Rezeptoptimierung & Produktionseffizienz.",
-      "supply_title": "Premium-Versorgung",
+      "supply_title": "Premium-Bereitstellung",
       "supply_desc": "Qualitätsdärme & Zutaten.",
       "learn_more": "Mehr erfahren"
     },
@@ -81,7 +81,7 @@
   "about": {
     "hero": {
       "subtitle": "Wer wir sind",
-      "title": "Deutsche Expertise. <br/> Indonesische Lösungen.",
+      "title": "Deutsche Expertise. <br/> für Indonesische Lösungen.",
       "desc": "PT. Colink Sigma Indonesia stellt die Brücke zwischen europäischer Fleischverarbeitungstechnologie und den Bedürfnissen der lokalen Industrie in Indonesien."
     },
     "story": {
@@ -91,11 +91,11 @@
       "desc": "Obwohl wir erst 2025 gegründet wurden, basiert unsere Expertise auf jahrzehntelanger Erfahrung. Unterstützt von einem in Deutschland ausgebildeten Experten, gewährleisten wir bei all unseren Dienstleistungen höchste Qualitätsstandards nach deutschem Meisterstandard.",
       "cert_title": "Zertifizierter Metzgermeister",
       "cert_desc": "Qualifikation in der Fleischverarbeitung (Meistermeisterzertifikat) seit 2002.",
-      "edu_title": "Deutsch Ausgebildet",
+      "edu_title": "Deutsche Ausbildung",
       "edu_desc": "Fleischerausbildung in Deutschland seit 1998 & Anwendungs-/Servicetechniker seit 2010."
     },
     "team": {
-      "title": "Lernen Sie die Führung kennen",
+      "title": "Lernen Sie unser Team kennen",
       "lars_role": "Metzgermeister & Anwendungs-/Servicetechniker",
       "lars_desc": "Zertifizierter deutscher Metzgermeister seit 2002 & Servicetechniker seit 2010.",
       "sugi_role": "Geschäftsführerin",
@@ -114,7 +114,7 @@
   },
   "services_page": {
     "hero": {
-      "subtitle": "Europäisches Know-How",
+      "subtitle": "Europäisches Fachwissen",
       "title": "Zuverlässige Lösungen für <br/> die Lebensmittelindustrie",
       "desc": "Wir kombinieren europäische Expertise mit lokaler Industrieerfahrung. Von Maschineninstallation, \"Metzgermeister\"-Beratung bis hin zur Lieferung hochwertiger Produkte."
     },
@@ -126,7 +126,7 @@
         "points": [
           "Professionelle Installation & Inbetriebnahme",
           "Vorbeugende Wartung & Reparatur",
-          "Bedienerschulung (Handhabung & Hygiene)",
+          "Bedienerschulung (Instandhaltung & Hygiene)",
           "Notfall-Fehlerbehebung"
         ]
       },
@@ -196,9 +196,9 @@
     "spotlight": {
       "subtitle": "Projekt-Highlight",
       "title": "Räucherkammer von MAUTING INSTALLATION",
-      "desc": "Technische Meisterleistung im Bereich moderner Räucher-/Kochkammern und Intensivkühlsysteme. Dieses Projekt umfasste die vollständige Integration von Steuerungssystemen und automatisierter Verarbeitung für gleichbleibende Produktqualität. Vollständige Systemkalibrierung Installation und Inbetriebnahme nach deutschem Standard.",
+      "desc": "Technische Meisterleistung im Bereich moderner Räucher-/Kochkammern und Intensivkühlsysteme. Dieses Projekt umfasste die vollständige Integration von Steuerungssystemen und automatisierter Verarbeitung für gleichbleibende Produktqualität.",
       "point1": "Vollständige Systemkalibrierung",
-      "point2": "Deutscher Standard für Installation & Inbetriebnahme"
+      "point2": "Installation und Inbetriebnahme nach deutschem Standard"
     },
     "projects": {
       "p1_title": "Installation einer VF 830 + PVLH 226 linie",

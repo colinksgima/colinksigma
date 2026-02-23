@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
-const brands = ["HANDTMANN", "GUENTHER", "K+G WETTER", "KOLBE", "MAUTING"];
+const brands = ["HANDTMANN", "GÜNTHER", "K+G WETTER", "KOLBE", "MAUTING"];
 
 const HomeBrands = () => {
   const { t } = useTranslation();

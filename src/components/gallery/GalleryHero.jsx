@@ -24,7 +24,7 @@ const GalleryHero = () => {
           transition={{ duration: 0.8 }}
           className="mb-12"
         >
-          <span className="text-gray-400 font-bold tracking-widest text-xs uppercase mb-2 block">
+          <span className="inline-block mb-4 text-blue-900 font-bold tracking-widest uppercase text-xs border-b-2 border-orange-500 pb-1">
             {t('gallery_page.hero.subtitle')}
           </span>
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight whitespace-pre-line">
