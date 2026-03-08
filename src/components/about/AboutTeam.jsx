@@ -9,15 +9,15 @@ const AboutTeam = () => {
 
   const teamMembers = [
     {
-      name: "NI NYOMAN SUGI ARIANTINI",
+      name: t('about.team.sugi_name'),
       role: t('about.team.sugi_role'),
       desc: t('about.team.sugi_desc'),
       img: "images/sugi.png",
-      email: "sugicolink@gmail.com",
+      email: "sugicolink2025@gmail.com",
       phone: "+62 853-1382-7131"
     },
     {
-      name: "NI NYOMAN SURYANINGSIH",
+      name: t('about.team.surya_name'),
       role: t('about.team.surya_role'),
       desc: t('about.team.surya_desc'),
       img: "images/surya.jpeg",
@@ -25,7 +25,7 @@ const AboutTeam = () => {
       phone: "+62 812-3761-3484"
     },
     {
-      name: "Lars Arnstaedt",
+      name: t('about.team.lars_name'),
       role: t('about.team.lars_role'),
       desc: t('about.team.lars_desc'),
       img: "images/lars.png",

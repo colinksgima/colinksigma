@@ -29,11 +29,25 @@ const ContactInfo = () => {
     {
       icon: <Mail size={28} />,
       title: t('contact_page.info.email_title'),
-      desc: "lacolink2025@gmail.com",
+      desc: (
+      <div className="flex flex-col space-y-2 mt-2">
+      <a 
+        href="mailto:sugicolink2025@gmail.com" 
+        className="text-gray-700 hover:text-blue-600 hover:underline transition-colors"
+      >
+        sugicolink2025@gmail.com
+      </a>
+      <a 
+        href="mailto:suryacolink2025@gmail.com" 
+        className="text-gray-700 hover:text-blue-600 hover:underline transition-colors"
+      >
+        suryacolink2025@gmail.com
+      </a>
+        </div>
+      ),
       sub: t('contact_page.info.email_sub'),
       color: "bg-green-100 text-green-700",
-      href: "mailto:lacolink2025@gmail.com",
-      isLink: true
+      isLink: false 
     },
     {
       icon: <Clock size={28} />,

@@ -18,7 +18,7 @@
       "install": "Maschineninstallation",
       "overhaul": "Überholung & Reparatur",
       "consult": "Wurstrezepturen Beratung",
-      "supply": "Därme & Zutatenversorgung",
+      "supply": "Zur Verfügung Stellen von Därme & Zutaten",
       "training": "Bedienerschulung"
     }
   },
@@ -96,6 +96,9 @@
     },
     "team": {
       "title": "Lernen Sie unser Team kennen",
+      "lars_name": "LARS ARNSTÄDT",
+      "sugi_name": "NI NYOMAN SUGI ARIANTINI",
+      "surya_name": "NI NYOMAN SURYANINGSIH",
       "lars_role": "Metzgermeister & Anwendungs-/Servicetechniker",
       "lars_desc": "Zertifizierter deutscher Metzgermeister seit 2002 & Servicetechniker seit 2010.",
       "sugi_role": "Geschäftsführerin",
@@ -219,7 +222,7 @@
     "hero": {
       "subtitle": "Kontaktieren Sie uns",
       "title": "Lassen Sie uns ein <br/> Gespräch beginnen",
-      "desc": "Benötigen Sie Maschineninstallation, Rezepturberatung oder Qualitätsdärme or Gewürze? Unser Team unterstützt Sie gerne bei Ihren industriellen Bedürfnissen."
+      "desc": "Benötigen Sie Maschineninstallation, Rezepturberatung oder Qualitätsdärme oder Gewürze? Unser Team unterstützt Sie gerne bei Ihren Bedürfnissen."
     },
     "info": {
       "office_title": "Hauptsitz",

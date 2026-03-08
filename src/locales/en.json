@@ -68,7 +68,7 @@
       "tech_desc": "High precision machine installation & repair.",
       "butcher_title": "Master butcher Consultation",
       "butcher_desc": "Recipe optimization & production efficiency.",
-      "supply_title": "Premium Supplies",
+      "supply_title": "Quality Casings & Ingredients",
       "supply_desc": "Quality collagen casings & ingredients.",
       "learn_more": "Learn More"
     },
@@ -96,6 +96,9 @@
     },
     "team": {
       "title": "Meet our Team",
+      "sugi_name": "NI NYOMAN SUGI ARIANTINI",
+      "surya_name": "NI NYOMAN SURYANINGSIH",
+      "lars_name": "LARS ARNSTAEDT",
       "lars_role": "Master Butcher & Application / Service Technician",
       "lars_desc": "German Certified Master Butcher since 2002 & Service Technician since 2010.",
       "sugi_role": "Managing Director",
@@ -219,7 +222,7 @@
     "hero": {
       "subtitle": "Get In Touch",
       "title": "Let's Start a <br/> Conversation",
-      "desc": "Do you need machine installation, recipe consultation or high-quality casings or spices? Our team is happy to help your industrial needs."
+      "desc": "Do you need machine installation, recipe consultation or high-quality casings or spices? Our team is happy to help your needs."
     },
     "info": {
       "office_title": "Head Office",
